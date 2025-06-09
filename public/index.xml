@@ -1,16 +1,166 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TailBliss</title><link>/</link><description>Recent content on TailBliss</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 02 Nov 2024 13:57:53 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog Post 1</title><link>/posts/blog-post-1/</link><pubDate>Sat, 18 Jun 2022 11:10:36 +0800</pubDate><guid>/posts/blog-post-1/</guid><description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description></item><item><title>News Post 1</title><link>/posts/news-post-1/</link><pubDate>Wed, 18 May 2022 11:10:36 +0800</pubDate><guid>/posts/news-post-1/</guid><description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description></item><item><title>News Post 2</title><link>/posts/news-post-2/</link><pubDate>Mon, 18 Apr 2022 11:10:36 +0800</pubDate><guid>/posts/news-post-2/</guid><description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description></item><item><title>News Post 4</title><link>/posts/news-post-4/</link><pubDate>Fri, 18 Mar 2022 11:10:36 +0800</pubDate><guid>/posts/news-post-4/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.&lt;/p></description></item><item><title>News Post 5</title><link>/posts/news-post-5/</link><pubDate>Fri, 18 Mar 2022 11:10:36 +0800</pubDate><guid>/posts/news-post-5/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.&lt;/p></description></item><item><title>News Post 6</title><link>/posts/news-post-6/</link><pubDate>Fri, 18 Mar 2022 11:10:36 +0800</pubDate><guid>/posts/news-post-6/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.&lt;/p></description></item><item><title>News Post 7</title><link>/posts/news-post-7/</link><pubDate>Fri, 18 Mar 2022 11:10:36 +0800</pubDate><guid>/posts/news-post-7/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.&lt;/p></description></item><item><title>About</title><link>/about/</link><pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate><guid>/about/</guid><description>h1 Heading &amp;#x1f60a; h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading Horizontal Rules Typographic replacements Enable typographer option to see result.
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
-test.. test&amp;hellip; test&amp;hellip;.. test?&amp;hellip;.. test!&amp;hellip;.
-!!!!!! ???? ,, &amp;ndash; &amp;mdash;
-&amp;ldquo;Smartypants, double quotes&amp;rdquo; and &amp;lsquo;single quotes&amp;rsquo;
-Emphasis This is bold text
-This is bold text
-This is italic text
-This is italic text
-Strikethrough
-Blockquotes Blockquotes can also be nested&amp;hellip;</description></item><item><title>Blog Post 2</title><link>/posts/blog-post-2/</link><pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate><guid>/posts/blog-post-2/</guid><description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description></item><item><title>Blog Post 3</title><link>/posts/blog-post-3/</link><pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate><guid>/posts/blog-post-3/</guid><description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description></item><item><title>Blog Post 4</title><link>/posts/blog-post-4/</link><pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate><guid>/posts/blog-post-4/</guid><description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description></item><item><title>Blog Post 5</title><link>/posts/blog-post-5/</link><pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate><guid>/posts/blog-post-5/</guid><description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description></item><item><title>Blog Post 6</title><link>/posts/blog-post-6/</link><pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate><guid>/posts/blog-post-6/</guid><description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description></item><item><title>Blog Post 7</title><link>/posts/blog-post-7/</link><pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate><guid>/posts/blog-post-7/</guid><description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description></item><item><title>Contact</title><link>/contact/</link><pubDate>Sat, 18 Dec 2021 03:10:36 +0000</pubDate><guid>/contact/</guid><description> Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.
-Your Email: Subject: Your message: Send Message</description></item><item><title>News Post 3</title><link>/posts/news-post-3/</link><pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate><guid>/posts/news-post-3/</guid><description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description></item><item><title>Prose</title><link>/prose/</link><pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate><guid>/prose/</guid><description>@tailwindcss/typography View on GitHub!
-Beautiful typographic defaults for HTML you don&amp;rsquo;t control.
-The official Tailwind CSS Typography plugin provides a set of prose classes you can use to add beautiful typographic defaults to any vanilla HTML you don’t control, like HTML rendered from Markdown, or pulled from a CMS.
-Tailwind CSS IntelliSense extension for Visual Studio Code
-&amp;lt;article class=&amp;#34;prose lg:prose-xl&amp;#34;&amp;gt;{{ markdown }}&amp;lt;/article&amp;gt; To see what it looks like in action, check out our live demo on Tailwind Play.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Co Pies Szczeka</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Co Pies Szczeka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Mon, 09 Jun 2025 11:21:09 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Konsultacje spacerowe</title>
+      <link>//localhost:1313/zajecia-indywidualne/konsultacje-spacerowe/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/zajecia-indywidualne/konsultacje-spacerowe/</guid>
+      <description>Konsultacje spacerowe Podczas indywidualnych konsultacji spacerowych trener towarzyszy opiekunowi i psu podczas spaceru, obserwuje zachowanie psa i udziela wskazówek na bieżąco. Konsultacje pomagają rozwiązać problemy takie jak ciągnięcie na smyczy, reakcje na inne psy, lękliwość, nadmierna ekscytacja czy brak skupienia na przewodniku.&#xA;Jak wygląda konsultacja spacerowa? Wspólny spacer z trenerem Analiza zachowania psa w różnych sytuacjach Praktyczne wskazówki i ćwiczenia Opracowanie planu dalszej pracy Dla kogo? Dla opiekunów psów mających trudności podczas spacerów Dla osób chcących poprawić relację z psem podczas codziennych wyjść Zapisy i kontakt Zapisy na konsultacje spacerowe prowadzone są przez formularz kontaktowy lub telefonicznie.</description>
+    </item>
+    <item>
+      <title>Konsultacje z behawiorystką</title>
+      <link>//localhost:1313/zajecia-indywidualne/konsultacje-z-behawiorystka/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/zajecia-indywidualne/konsultacje-z-behawiorystka/</guid>
+      <description>Konsultacje z behawiorystką Indywidualne spotkania z doświadczoną behawiorystką, podczas których analizujemy zachowanie psa, rozpoznajemy przyczyny problemów i opracowujemy plan pracy dostosowany do potrzeb opiekuna i psa. Konsultacje obejmują m.in. agresję, lękliwość, nadpobudliwość, problemy z zostawaniem samemu, niszczenie przedmiotów i inne trudności wychowawcze.&#xA;Jak wygląda konsultacja? Szczegółowy wywiad z opiekunem Obserwacja psa w naturalnym środowisku Analiza problemu i omówienie możliwych rozwiązań Opracowanie indywidualnego planu działania Dla kogo? Dla opiekunów psów z problemami behawioralnymi Dla osób chcących lepiej zrozumieć swojego psa Zapisy i kontakt Zapisy na konsultacje prowadzone są przez formularz kontaktowy lub telefonicznie.</description>
+    </item>
+    <item>
+      <title>Nosework - Praca Węchowa</title>
+      <link>//localhost:1313/zajecia-grupowe/nosework/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/zajecia-grupowe/nosework/</guid>
+      <description>Nosework - Praca Węchowa Nosework to sport kynologiczny, który polega na wykorzystaniu naturalnych zdolności węchowych psa do wyszukiwania zapachów. To doskonała forma aktywności umysłowej i fizycznej dla psów w każdym wieku.&#xA;Dla kogo jest nosework? Dla psów w każdym wieku (od szczeniąt po seniorów) Dla psów lękliwych i nieśmiałych Dla psów z nadmiarem energii Dla psów, które potrzebują nowych wyzwań Dla wszystkich psów, które lubią węszyć Korzyści z nosework Rozwój umysłowy</description>
+    </item>
+    <item>
+      <title>Posłuszeństwo - Podstawy i Zaawansowane</title>
+      <link>//localhost:1313/zajecia-grupowe/posluszenstwo/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/zajecia-grupowe/posluszenstwo/</guid>
+      <description>Posłuszeństwo - Podstawy i Zaawansowane Kurs posłuszeństwa to fundament prawidłowego wychowania psa. Oferujemy dwa poziomy zaawansowania, dostosowane do potrzeb Twojego psa i Twoich oczekiwań.&#xA;Poziom Podstawowy Dla kogo? Dla szczeniąt od 4 miesiąca życia Dla psów dorosłych, które nie przeszły wcześniej szkolenia Dla właścicieli, którzy chcą nauczyć się podstaw komunikacji z psem Program podstawowy obejmuje: Podstawowe komendy&#xA;Siad Waruj Zostań Do mnie Chodź przy nodze Zachowania w codziennych sytuacjach</description>
+    </item>
+    <item>
+      <title>Spacery Socjalizacyjne</title>
+      <link>//localhost:1313/zajecia-grupowe/spacery-socjalizacyjne/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/zajecia-grupowe/spacery-socjalizacyjne/</guid>
+      <description>Spacery Socjalizacyjne Spacery socjalizacyjne to specjalne zajęcia grupowe, podczas których psy uczą się prawidłowych zachowań w towarzystwie innych psów i ludzi. To idealna forma aktywności dla psów w każdym wieku, które potrzebują poprawy umiejętności społecznych.&#xA;Dla kogo są spacery socjalizacyjne? Dla szczeniąt, które potrzebują prawidłowej socjalizacji Dla psów dorosłych, które mają problemy z zachowaniem w grupie Dla psów lękliwych, które potrzebują stopniowego oswajania z nowymi sytuacjami Dla wszystkich psów, które lubią aktywność w grupie Co zyskasz?</description>
+    </item>
+    <item>
+      <title>Blog Post 1</title>
+      <link>//localhost:1313/posts/blog-post-1/</link>
+      <pubDate>Sat, 18 Jun 2022 11:10:36 +0800</pubDate>
+      <guid>//localhost:1313/posts/blog-post-1/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description>
+    </item>
+    <item>
+      <title>News Post 1</title>
+      <link>//localhost:1313/posts/news-post-1/</link>
+      <pubDate>Wed, 18 May 2022 11:10:36 +0800</pubDate>
+      <guid>//localhost:1313/posts/news-post-1/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description>
+    </item>
+    <item>
+      <title>News Post 2</title>
+      <link>//localhost:1313/posts/news-post-2/</link>
+      <pubDate>Mon, 18 Apr 2022 11:10:36 +0800</pubDate>
+      <guid>//localhost:1313/posts/news-post-2/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description>
+    </item>
+    <item>
+      <title>News Post 4</title>
+      <link>//localhost:1313/posts/news-post-4/</link>
+      <pubDate>Fri, 18 Mar 2022 11:10:36 +0800</pubDate>
+      <guid>//localhost:1313/posts/news-post-4/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>News Post 5</title>
+      <link>//localhost:1313/posts/news-post-5/</link>
+      <pubDate>Fri, 18 Mar 2022 11:10:36 +0800</pubDate>
+      <guid>//localhost:1313/posts/news-post-5/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>News Post 6</title>
+      <link>//localhost:1313/posts/news-post-6/</link>
+      <pubDate>Fri, 18 Mar 2022 11:10:36 +0800</pubDate>
+      <guid>//localhost:1313/posts/news-post-6/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>News Post 7</title>
+      <link>//localhost:1313/posts/news-post-7/</link>
+      <pubDate>Fri, 18 Mar 2022 11:10:36 +0800</pubDate>
+      <guid>//localhost:1313/posts/news-post-7/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
+      <guid>//localhost:1313/about/</guid>
+      <description>h1 Heading &amp;#x1f60a; h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading Horizontal Rules Typographic replacements Enable typographer option to see result.&#xA;(c) (C) (r) (R) (tm) (TM) (p) (P) +-&#xA;test.. test&amp;hellip; test&amp;hellip;.. test?&amp;hellip;.. test!&amp;hellip;.&#xA;!!!!!! ???? ,, &amp;ndash; &amp;mdash;&#xA;&amp;ldquo;Smartypants, double quotes&amp;rdquo; and &amp;lsquo;single quotes&amp;rsquo;&#xA;Emphasis This is bold text&#xA;This is bold text&#xA;This is italic text&#xA;This is italic text&#xA;Strikethrough&#xA;Blockquotes Blockquotes can also be nested&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Blog Post 2</title>
+      <link>//localhost:1313/posts/blog-post-2/</link>
+      <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
+      <guid>//localhost:1313/posts/blog-post-2/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description>
+    </item>
+    <item>
+      <title>Blog Post 3</title>
+      <link>//localhost:1313/posts/blog-post-3/</link>
+      <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
+      <guid>//localhost:1313/posts/blog-post-3/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description>
+    </item>
+    <item>
+      <title>Blog Post 4</title>
+      <link>//localhost:1313/posts/blog-post-4/</link>
+      <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
+      <guid>//localhost:1313/posts/blog-post-4/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description>
+    </item>
+    <item>
+      <title>Blog Post 5</title>
+      <link>//localhost:1313/posts/blog-post-5/</link>
+      <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
+      <guid>//localhost:1313/posts/blog-post-5/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description>
+    </item>
+    <item>
+      <title>Blog Post 6</title>
+      <link>//localhost:1313/posts/blog-post-6/</link>
+      <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
+      <guid>//localhost:1313/posts/blog-post-6/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description>
+    </item>
+    <item>
+      <title>Blog Post 7</title>
+      <link>//localhost:1313/posts/blog-post-7/</link>
+      <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
+      <guid>//localhost:1313/posts/blog-post-7/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>//localhost:1313/contact/</link>
+      <pubDate>Sat, 18 Dec 2021 03:10:36 +0000</pubDate>
+      <guid>//localhost:1313/contact/</guid>
+      <description> Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.&#xA;Your Email: Subject: Your message: Send Message </description>
+    </item>
+    <item>
+      <title>News Post 3</title>
+      <link>//localhost:1313/posts/news-post-3/</link>
+      <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
+      <guid>//localhost:1313/posts/news-post-3/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description>
+    </item>
+    <item>
+      <title>Prose</title>
+      <link>//localhost:1313/prose/</link>
+      <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
+      <guid>//localhost:1313/prose/</guid>
+      <description>@tailwindcss/typography View on GitHub!&#xA;Beautiful typographic defaults for HTML you don&amp;rsquo;t control.&#xA;The official Tailwind CSS Typography plugin provides a set of prose classes you can use to add beautiful typographic defaults to any vanilla HTML you don’t control, like HTML rendered from Markdown, or pulled from a CMS.&#xA;Tailwind CSS IntelliSense extension for Visual Studio Code&#xA;&amp;lt;article class=&amp;#34;prose lg:prose-xl&amp;#34;&amp;gt;&#xD;{{ markdown }}&#xD;&amp;lt;/article&amp;gt; To see what it looks like in action, check out our live demo on Tailwind Play.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,4 +1,4 @@
 ---
-title: "Zajecia Grupowe"
-description: "Oferta zajęć grupowych"
+title: "Zajęcia Grupowe"
+description: "Informacje o zajęciach grupowych"
 --- 
