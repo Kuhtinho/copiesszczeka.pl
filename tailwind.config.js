@@ -2,20 +2,64 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 // tailwind.config.js
 module.exports = {
-  content: ['./layouts/**/*.html', './content/**/*.md'],
+  content: ['./layouts/**/*.html', './content/**/*.{html,md}'],
   darkMode: 'class',
   theme: {
     extend: {
       colors: {
-        primary: 'colors.indigo',
-        secondary: 'colors.yellow',
-        neutral: 'colors.gray',
+        transparent: 'transparent',
+        current: 'currentColor',
+        'primary': {
+          DEFAULT: '#1B4B34',
+          dark: '#004d00',
+          50: '#E6F2E6',
+          100: '#CCE5CC',
+          200: '#99CC99',
+          300: '#66B266',
+          400: '#339933',
+          500: '#006400',
+          600: '#004D00',
+          700: '#003300',
+          800: '#001A00',
+          900: '#000D00'
+        },
+        'secondary': {
+          DEFAULT: '#FF7621',
+          dark: '#FF6B00',
+          50: '#FFF2E6',
+          100: '#FFE5CC',
+          200: '#FFCC99',
+          300: '#FFB266',
+          400: '#FF9933',
+          500: '#FF8C00',
+          600: '#CC6B00',
+          700: '#994A00',
+          800: '#662900',
+          900: '#331400'
+        },
+        'neutral': {
+          DEFAULT: '#6B7280',
+          50: '#CDD0D5',
+          100: '#C2C5CC',
+          200: '#ACB0BA',
+          300: '#969BA7',
+          400: '#7F8694',
+          500: '#6B7280',
+          600: '#515761',
+          700: '#383C43',
+          800: '#1E2024',
+          900: '#050506'
+        },
+        background: '#CCB8D1',
+        backgroundColor: {
+          'custom': '#CCB8D1',
+        },
+        // To change these, use https://www.tailwindshades.com/ with https://tailwindcss.com/docs/customizing-colors or create your own custom colors.
       },
       lineHeight: {
         'extra-loose': '2.5',
         '12': '3rem',
       },
-
       typography: (theme) => ({
         DEFAULT: {
           css: {

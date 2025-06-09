@@ -3,6 +3,74 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --bottle-green: #1B4B34;
+  --dark-orange: #FF7621;
+  --background: #CCB8D1;
+  --color-primary: var(--bottle-green);
+  --color-primary-dark: #004d00;
+  --color-secondary: var(--dark-orange);
+  --color-secondary-dark: #FF6B00;
+}
+
+/* Override Tailwind colors */
+.bg-primary-600 {
+  background-color: var(--color-primary) !important;
+}
+
+.hover\:bg-primary-600:hover {
+  background-color: var(--color-primary) !important;
+}
+
+.text-primary-600 {
+  color: var(--color-primary) !important;
+}
+
+.hover\:text-primary-600:hover {
+  color: var(--color-primary) !important;
+}
+
+.bg-secondary-600 {
+  background-color: var(--color-secondary) !important;
+}
+
+.hover\:bg-secondary-600:hover {
+  background-color: var(--color-secondary) !important;
+}
+
+.text-secondary-600 {
+  color: var(--color-secondary) !important;
+}
+
+.hover\:text-secondary-600:hover {
+  color: var(--color-secondary) !important;
+}
+
+/* Add orange accents */
+.hover\:bg-primary-200:hover {
+  background-color: var(--color-secondary) !important;
+}
+
+.hover\:text-primary-500:hover {
+  color: var(--color-secondary) !important;
+}
+
+.dark\:text-primary-100 {
+  color: var(--color-secondary) !important;
+}
+
+.dark\:text-primary-300 {
+  color: var(--color-secondary) !important;
+}
+
+.dark\:text-primary-400 {
+  color: var(--color-secondary) !important;
+}
+
+.dark\:text-primary-500 {
+  color: var(--color-secondary) !important;
+}
+
 font-family: ui-sans-serif,
 system-ui,
 -apple-system,
@@ -19,6 +87,7 @@ NotoColorEmoji,
 Segoe UI Symbol,
 Android Emoji,
 EmojiSymbols;
+
 /* Custom CSS */
 
 .prose :where(h1):not(:where([class~="not-prose"] *)) {
@@ -26,3 +95,19 @@ EmojiSymbols;
 }
 
 /* Custom CSS end */
+
+@layer base {
+  html {
+    @apply bg-[#CCB8D1];
+  }
+  
+  body {
+    @apply bg-[#CCB8D1] min-h-screen;
+  }
+
+  :root {
+    --color-primary: var(--bottle-green);
+    --color-secondary: var(--dark-orange);
+    --color-background: var(--background);
+  }
+}
