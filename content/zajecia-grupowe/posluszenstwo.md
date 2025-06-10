@@ -9,84 +9,59 @@ description: "Kurs posłuszeństwa podstawowego i zaawansowanego to kompleksowy 
 featured_image: ../assets/images/featured/posluszenstwo.png
 ---
 
-![Pies podczas zajęć posłuszeństwa](../../images/posluszenstwo.png)
+## POSŁUSZEŃSTWO I
 
-## Posłuszeństwo - Podstawy i Zaawansowane
+Zajęcia skierowane są zarówno dla szczeniąt (po drugim szczepieniu) jak i psów dorosłych.
 
-Kurs posłuszeństwa to fundament prawidłowego wychowania psa. Oferujemy dwa poziomy zaawansowania, dostosowane do potrzeb Twojego psa i Twoich oczekiwań.
+Kursy prowadzone są w grupach – maksymalnie 4 zespoły uczestników (tworzymy grupę dla psów dorosłych oraz osobną dla szczeniąt do 5 miesiąca). Kurs składa się z 7 godzin zajęć.
 
-### Poziom Podstawowy
+Zajęcia prowadzone są w małych grupach, na ogrodzonym placu, na Wawrze.
+W trakcie ich trwania, Wasz pies będzie zdobywał podstawowe umiejętności z posłuszeństwa, socjalizował się w towarzystwie innych psów oraz zwierząt mieszkających w sąsiedztwie.
 
-#### Dla kogo?
-- Dla szczeniąt od 4 miesiąca życia
-- Dla psów dorosłych, które nie przeszły wcześniej szkolenia
-- Dla właścicieli, którzy chcą nauczyć się podstaw komunikacji z psem
+Jednak pamiętajcie! Na sukces Waszego psa składa się Wasza wspólna praca – tworzycie drużynę!
 
-#### Program podstawowy obejmuje:
-1. **Podstawowe komendy**
-   - Siad
-   - Waruj
-   - Zostań
-   - Do mnie
-   - Chodź przy nodze
+### Podczas zajęć wypracujemy następujące umiejętności:
+- skupienie uwagi na przewodniku,
+- nauka wspólnej zabawy,
+- siad,
+- leżeć,
+- dostawianie do nogi,
+- hasło zabraniające,
+- wypluwanie przedmiotów,
+- chodzenie przy nodze,
+- przywołanie,
+- podstawy odwołania.
 
-2. **Zachowania w codziennych sytuacjach**
-   - Spokojne witanie gości
-   - Zachowanie w miejscach publicznych
-   - Reagowanie na rozproszenia
+### W ramach kursu:
+- nauczysz swojego psa podstaw posłuszeństwa,
+- rozwiniecie relację,
+- jako opiekun zrozumiesz podstawy psiej komunikacji,
+- po każdych zajęciach otrzymacie podsumowanie oraz pracę domową,
+- otrzymacie dostęp do grupy na Facebooku,
+- zdobędziecie dyplom ukończenia zajęć.
 
-3. **Podstawy komunikacji**
-   - Rozumienie mowy ciała psa
-   - Prawidłowe wydawanie komend
-   - System nagród i konsekwencji
+## POSŁUSZEŃSTWO II
 
-### Poziom Zaawansowany
+Zajęcia skierowane są zarówno dla szczeniąt (po drugim szczepieniu) jak i psów dorosłych.
 
-#### Dla kogo?
-- Dla psów, które opanowały podstawowe komendy
-- Dla właścicieli, którzy chcą rozwijać umiejętności swojego psa
-- Dla psów przygotowujących się do egzaminów PT
+Kursy prowadzone są w grupach – maksymalnie 4 zespoły uczestników (tworzymy grupę dla psów dorosłych oraz osobną dla szczeniąt do 5 miesiąca). Kurs składa się z 6 godzin zajęć.
 
-#### Program zaawansowany obejmuje:
-1. **Zaawansowane komendy**
-   - Komendy na odległość
-   - Złożone sekwencje ćwiczeń
-   - Precyzyjne wykonywanie poleceń
+Zajęcia prowadzone są w małych grupach, na ogrodzonym placu, na Wawrze.
+W trakcie ich trwania, Wasz pies będzie zdobywał kolejne umiejętności z posłuszeństwa, socjalizował się w towarzystwie innych psów oraz zwierząt mieszkających w sąsiedztwie.
 
-2. **Specjalistyczne umiejętności**
-   - Praca w rozproszeniu
-   - Zachowanie w trudnych sytuacjach
-   - Zaawansowana kontrola emocji
+Jednak pamiętajcie! Na sukces Waszego psa składa się Wasza wspólna praca – tworzycie drużynę!
 
-3. **Przygotowanie do egzaminów**
-   - Symulacje egzaminów PT
-   - Doskonalenie techniki
-   - Radzenie sobie ze stresem
+### Podczas zajęć wypracujemy następujące umiejętności:
+- pracę na odłożonej nagrodzie
+- odesłanie na wyznaczone miejsce
+- omijanie przedmiotów
+- czekanie na hasło
+- pracowanie w sekwencji ćwiczeń
 
-### Informacje praktyczne
-
-#### Poziom Podstawowy
-- **Czas trwania**: 8 tygodni
-- **Częstotliwość**: 1 zajęcia tygodniowo
-- **Liczba uczestników**: max 6 psów
-- **Wymagania**: brak
-
-#### Poziom Zaawansowany
-- **Czas trwania**: 8 tygodni
-- **Częstotliwość**: 1 zajęcia tygodniowo
-- **Liczba uczestników**: max 4 psy
-- **Wymagania**: ukończony poziom podstawowy lub pozytywna ocena trenera
-
-### Co zabrać na zajęcia?
-- Smaczki (ulubione przysmaki psa)
-- Ulubioną zabawkę
-- Smycz (1.5-2m)
-- Obrożę lub szelki
-- Wodę dla psa
-- Notatnik dla siebie
-
-### Zapisy i kontakt
-
-Zapisy na kursy posłuszeństwa prowadzone są przez formularz kontaktowy lub telefonicznie. Przed rozpoczęciem kursu zaawansowanego wymagana jest konsultacja z trenerem w celu oceny poziomu psa.
-
-Zapraszamy do udziału w naszych kursach posłuszeństwa - to doskonała okazja do zbudowania silnej więzi z psem i nauczenia go prawidłowych zachowań! 
+### W ramach kursu:
+- nauczysz swojego psa dodatkowych umiejętności w zakresie posłuszeństwa,
+- pogłębisz relację z psem,
+- jako opiekun poznasz procesy pracy nad nowymi ćwiczeniami,
+- po każdych zajęciach otrzymacie podsumowanie oraz pracę domową,
+- otrzymacie dostęp do grupy na facebooku
+- zdobędziecie dyplom ukończenia zajęć.

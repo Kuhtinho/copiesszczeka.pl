@@ -113,24 +113,20 @@ params:
 
 menu:
   main:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
     - identifier: about
-      name: About
+      name: Nasz Zespół
       url: /about/
       weight: 20
     - identifier: categories
       pre: dropdown
       name: Oferta
       weight: 30
-    - identifier: dropdown
-      pre: complexdropdown
-      name: Dropdown
-      weight: 40
+    - identifier: cennik
+      name: Cennik
+      url: /cennik/
+      weight: 35
     - identifier: contact
-      name: Contact
+      name: Kontakt
       url: /contact/
       weight: 50
   categories:

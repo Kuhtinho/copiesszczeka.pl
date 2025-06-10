@@ -9,19 +9,26 @@ description: "Indywidualne konsultacje z behawiorystką pomagające rozwiązać 
 featured_image: ../assets/images/featured/posluszenstwo.png
 ---
 
-## Konsultacje z behawiorystką
+## KONSULTACJE BEHAWIORALNE
 
-Indywidualne spotkania z doświadczoną behawiorystką, podczas których analizujemy zachowanie psa, rozpoznajemy przyczyny problemów i opracowujemy plan pracy dostosowany do potrzeb opiekuna i psa. Konsultacje obejmują m.in. agresję, lękliwość, nadpobudliwość, problemy z zostawaniem samemu, niszczenie przedmiotów i inne trudności wychowawcze.
+Konsultacje behawioralne są skierowane do opiekunów, którzy chcą lepiej zrozumieć zachowanie swojego psa, poradzić sobie z trudnościami w codziennym funkcjonowaniu lub przeciwdziałać pojawiającym się problemom.
+Podczas spotkania wspólnie przeanalizujemy sytuację, w jakiej znajduje się pies, jego środowisko, historię oraz potrzeby, a następnie opracujemy plan działania dopasowany do Waszej codzienności.
 
-### Jak wygląda konsultacja?
-- Szczegółowy wywiad z opiekunem
-- Obserwacja psa w naturalnym środowisku
-- Analiza problemu i omówienie możliwych rozwiązań
-- Opracowanie indywidualnego planu działania
+Konsultacja odbywa się w bezpiecznej i komfortowej przestrzeni – w domu opiekuna lub w ustalonym miejscu na zewnątrz. Na podstawie obserwacji i rozmowy, zaproponujemy konkretne kroki, które pomogą w poprawie relacji i dobrostanu psa.
 
-### Dla kogo?
-- Dla opiekunów psów z problemami behawioralnymi
-- Dla osób chcących lepiej zrozumieć swojego psa
+### Konsultacje są dla psów, które:
+- wykazują lęk, agresję, nadpobudliwość lub inne trudne zachowania,
+- nie radzą sobie z nowymi sytuacjami, bodźcami lub miejscami,
+- mają trudności w relacjach z innymi psami lub ludźmi,
+- potrzebują wsparcia w adaptacji do nowego środowiska (np. po adopcji),
+- potrzebują indywidualnego podejścia, którego nie da się wdrożyć w grupie.
 
-### Zapisy i kontakt
-Zapisy na konsultacje prowadzone są przez formularz kontaktowy lub telefonicznie. 
+### W ramach konsultacji:
+- otrzymasz szczegółową analizę zachowania Twojego psa,
+- zrozumiesz, co wpływa na jego emocje i reakcje,
+- poznasz konkretne zalecenia i ćwiczenia do pracy w domu,
+- nauczysz się wspierać psa w trudnych momentach,
+- otrzymasz pisemne podsumowanie oraz plan działania po spotkaniu.
+
+Czas trwania pierwszej konsultacji: ok. 1,5–2 godziny
+Miejsce: indywidualnie ustalane – możliwy dojazd do domu opiekuna.

@@ -2,112 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/categories/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
+    <loc>//localhost:1313/cennik/</loc>
+    <lastmod>2024-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
+    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/zajecia-indywidualne/konsultacje-spacerowe/</loc>
-    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/zajecia-indywidualne/konsultacje-z-behawiorystka/</loc>
-    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/zajecia-grupowe/nosework/</loc>
-    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/zajecia-grupowe/posluszenstwo/</loc>
-    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/zajecia-grupowe/spacery-socjalizacyjne/</loc>
-    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
+    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/zajecia-grupowe/</loc>
-    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/zajecia-indywidualne/</loc>
-    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/zajecia-grupowe/</loc>
-    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/zajecia-indywidualne/</loc>
-    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/blog/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/blog/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/blog-post-1/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/news/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/news/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/news-post-1/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/news-post-2/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/news-post-4/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/news-post-5/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/news-post-6/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/news-post-7/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/about/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/blog-post-2/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/blog-post-3/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/blog-post-4/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/blog-post-5/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/blog-post-6/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/blog-post-7/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
+    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/contact/</loc>
     <lastmod>2025-06-09T11:21:09+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/news-post-3/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/prose/</loc>
+    <loc>//localhost:1313/about/</loc>
     <lastmod>2025-06-09T11:21:09+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/zajecia-indywidualne/</loc>
     <lastmod>2025-06-09T11:21:09+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/zajecia-grupowe/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
+    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
   </url>
 </urlset>
