@@ -59,7 +59,7 @@ params:
 
   p1:
     heading: "Profesjonalne podejście do Twojego psa"
-    image: "images/featured/strona_tyt.png"
+    image: "images/featured/olasabaj.png"
     content:
       - text: "Jesteśmy zespołem doświadczonych trenerów i behawiorystów, którzy pomagają opiekunom budować lepszą relację ze swoimi psami. Nasze usługi obejmują:"
       - text: "✓ Konsultacje behawioralne - pomagamy rozwiązać problemy wychowawcze i behawioralne"
