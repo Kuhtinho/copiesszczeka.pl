@@ -1,6 +1,5 @@
 ---
 title: "Cennik"
-date: 2024-03-26
 draft: false
 ---
 

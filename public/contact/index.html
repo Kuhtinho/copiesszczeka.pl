@@ -12,15 +12,15 @@
 <link rel="mask-icon" href="//localhost:1313/favicon/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
-<title itemprop="name"> Contact | Co Pies Szczeka 
+<title itemprop="name"> Kontakt | Co Pies Szczeka 
 </title>
-<meta name="description" content="A test with @tailwindcss/typography &amp; Prose" />
-<meta property="og:title" content="Contact | Co Pies Szczeka" />
-<meta name="twitter:title" content="Contact | Co Pies Szczeka" />
-<meta itemprop="name" content="Contact | Co Pies Szczeka" />
-<meta name="application-name" content="Contact | Co Pies Szczeka" />
+<meta name="description" content="Skontaktuj się z nami i umów spotkanie" />
+<meta property="og:title" content="Kontakt | Co Pies Szczeka" />
+<meta name="twitter:title" content="Kontakt | Co Pies Szczeka" />
+<meta itemprop="name" content="Kontakt | Co Pies Szczeka" />
+<meta name="application-name" content="Kontakt | Co Pies Szczeka" />
 <meta property="og:description"
-      content="A test with @tailwindcss/typography &amp; Prose" />
+      content="Skontaktuj się z nami i umów spotkanie" />
 <meta property="og:site_name" content="Co Pies Szczeka" />
 <meta property="og:url" content="//localhost:1313/contact/" />
 <meta property="og:locale" content="en">
@@ -45,12 +45,12 @@
 </head>
 
 <body class="bg-zinc-100 dark:bg-gray-800">
-    <div class="top-0 z-50 w-full text-gray-200 bg-gray-900 border-2 border-gray-900 md:sticky border-b-stone-200/10">
+    <div class="top-0 z-50 w-full text-gray-900 bg-white border-2 border-gray-200 md:sticky border-b-stone-200/10">
     <div x-data="{ open: false }" class="flex flex-col max-w-full px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
         <div class="flex flex-row items-center justify-between p-4">
-            <a href="//localhost:1313/" class="flex text-gray-100 transition duration-1000 ease-in-out group">
-                <img src="//localhost:1313/images/site-logo.svg" class="transition-opacity h-9 w-9 group-hover:opacity-50 group-focus:opacity-70" alt="Co Pies Szczeka Logo" />
-                <div class="mt-1 ml-3 text-xl font-black tracking-tight text-gray-100 uppercase transition-colors group-hover:text-gray-400/60">
+            <a href="//localhost:1313/" class="flex text-gray-900 transition duration-1000 ease-in-out group">
+                <img src="//localhost:1313/images/copiesszczeka.png" class="transition-opacity h-9 w-9 group-hover:opacity-50 group-focus:opacity-70" alt="Co Pies Szczeka Logo" />
+                <div class="mt-1 ml-3 text-xl font-black tracking-tight text-gray-900 uppercase transition-colors group-hover:text-gray-600">
                     Co Pies Szczeka</div>
             </a>
             <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open" role="navigation" aria-expanded="false" aria-label="Main" aria-controls="menuItems">
@@ -95,6 +95,12 @@
             
             
             
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="//localhost:1313/umow-spotkanie/" title="Umów spotkanie">
+                Umów spotkanie
+            </a>
+            
+            
+            
             <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="//localhost:1313/contact/" title="Kontakt">
                 Kontakt
             </a>
@@ -115,53 +121,50 @@
     </div>
 </div>
     
+
 <article>
   <header class="mb-4 bg-primary-600">
-    <span class="py-96">
-      <h1 class="py-16 text-5xl font-black text-center text-white capitalize">
-        Contact
-      </h1>
-    </span>
+    <h1 class="py-8 text-5xl font-black text-center text-secondary-600 capitalize">
+      Kontakt
+    </h1>
   </header>
-  <div class="max-w-4xl mx-auto mt-8 mb-2">
-    <div class="px-6">
-      
+  <div class="lg:pb-24">
+    <div class="max-w-screen-md px-4 mx-auto">
+        <p class="mb-8 font-light text-center text-gray-500 lg:mb-16 dark:text-gray-400 sm:text-xl">Masz pytanie? Skontaktuj się z nami.</p>
+        <form name="contact" action="https://formsubmit.co/el/twoj@email.com" method="POST" class="space-y-8">
+            
+            <input type="text" name="_honey" style="display:none">
+            
+            <input type="hidden" name="_captcha" value="false">
+            
+            <input type="hidden" name="_next" value="//localhost:1313//dziekujemy">
+            
+            <div class="my-4">
+                <label for="email" class="block mb-2 font-medium text-gray-900 text-md dark:text-gray-300"><strong>Twój Email:</strong></label>
+                <input type="email" name="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-indigo-500 focus:border-indigo-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500 dark:shadow-sm-light" placeholder="name@example.com" required>
+            </div>
+            <div class="my-4">
+                <label for="subject" class="block mb-2 font-medium text-gray-900 text-md dark:text-gray-300"><strong>Temat:</strong></label>
+                <input type="text" name="subject" class="block w-full p-3 text-gray-900 border border-gray-300 rounded-lg shadow-sm text-md bg-gray-50 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500 dark:shadow-sm-light" placeholder="Napisz, w czym możemy Ci pomóc" required>
+            </div>
+            <div class="my-4 sm:col-span-2">
+                <label for="message" class="block mb-2 font-medium text-gray-900 text-md dark:text-gray-400"><strong>Twoja wiadomość:</strong></label>
+                <textarea id="message" name="message" rows="6" class="block p-2.5 w-full text-md text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500" placeholder="Napisz swoją wiadomość..." required></textarea>
+            </div>
+            <div class="mt-6 lg:pb-16">
+               <button type="submit" class="px-5 py-3 font-bold text-center text-white bg-indigo-600 rounded-lg text-md sm:w-fit hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800">Wyślij wiadomość</button>
+            </div>
+        </form>
     </div>
   </div>
-  
-  <div class="max-w-2xl px-6 pt-6 pb-16 mx-auto prose dark:prose-invert dark:text-white">
-    <!-- @format -->
-<section class="lg:pb-24">
-  <div class="max-w-screen-md px-4 mx-auto">
-      <p class="mb-8 font-light text-center text-gray-500 lg:mb-16 dark:text-gray-400 sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
-      <form name="contact" action="https://formsubmit.co/your@email.com" method="POST" class="space-y-8">
-          <div class="my-4">
-              <label for="email" class="block mb-2 font-medium text-gray-900 text-md dark:text-gray-300"><strong>Your Email:</strong></label>
-              <input type="email" name="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-indigo-500 focus:border-indigo-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500 dark:shadow-sm-light" placeholder="name@example.com" required>
-          </div>
-          <div class="my-4">
-              <label for="subject" class="block mb-2 font-medium text-gray-900 text-md dark:text-gray-300"><strong>Subject:</strong></label>
-              <input type="text" name="subject" class="block w-full p-3 text-gray-900 border border-gray-300 rounded-lg shadow-sm text-md bg-gray-50 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required>
-          </div>
-          <div class="my-4 sm:col-span-2">
-              <label for="message" class="block mb-2 font-medium text-gray-900 text-md dark:text-gray-400"><strong>Your message:</strong></label>
-              <textarea id="message" name="message" rows="6" class="block p-2.5 w-full text-md text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500" placeholder="Leave a comment..."></textarea>
-          </div>
-          <div class="mt-6 lg:pb-16">
-             <button type="submit" class="px-5 py-3 font-bold text-center text-white bg-indigo-600 rounded-lg text-md sm:w-fit hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800">Send Message</button>
-          </div>
-      </form>
-  </div>
-</section>
-
-  </div>
 </article>
+
 
     
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
 <script src="//localhost:1313/js/darkmode.js" defer></script>
-<footer class="bg-gray-900">
+<footer class="bg-gray-900 mt-32">
     <div class="max-w-md px-4 py-12 mx-auto overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
         <nav class="flex flex-wrap justify-center -mx-5 -my-2" aria-label="Footer">
             

@@ -1,12 +1,12 @@
 ---
 title: "Spacery Socjalizacyjne"
-date: 2024-03-20
+date: ""
 draft: false
 author: Co Pies Szczeka
 categories: ["Zajecia Grupowe"]
 tags: ["Zajecia Grupowe"]
 description: "Spacery socjalizacyjne to doskonała okazja dla Twojego psa do nauki prawidłowych zachowań w grupie i w różnych sytuacjach."
-featured_image: ../assets/images/featured/posluszenstwo.png
+featured_image: ../assets/images/featured/spacery_socjalizacyjne.png
 ---
 
 ## SPACERY SOCJALIZACYJNE

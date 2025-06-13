@@ -1,6 +1,6 @@
 ---
 title: "Posłuszeństwo - Podstawy i Zaawansowane"
-date: 2024-03-20
+date: ""
 draft: false
 author: Co Pies Szczeka
 categories: ["Zajecia Grupowe"]

@@ -2,53 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/cennik/</loc>
-    <lastmod>2024-03-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/</loc>
-    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/zajecia-indywidualne/konsultacje-spacerowe/</loc>
-    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/zajecia-indywidualne/konsultacje-z-behawiorystka/</loc>
-    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/zajecia-grupowe/nosework/</loc>
-    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/zajecia-grupowe/posluszenstwo/</loc>
-    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/zajecia-grupowe/spacery-socjalizacyjne/</loc>
-    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/zajecia-grupowe/</loc>
-    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/zajecia-indywidualne/</loc>
-    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/zajecia-grupowe/</loc>
-    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/zajecia-indywidualne/</loc>
-    <lastmod>2025-06-09T14:36:06+02:00</lastmod>
+    <lastmod>2025-06-10T15:14:45+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/contact/</loc>
     <lastmod>2025-06-09T11:21:09+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/about/</loc>
-    <lastmod>2025-06-09T11:21:09+02:00</lastmod>
+    <lastmod>2025-06-10T15:14:45+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+    <lastmod>2025-06-10T15:14:45+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/cennik/</loc>
+    <lastmod>2025-06-10T15:14:45+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/zajecia-indywidualne/konsultacje-spacerowe/</loc>
+    <lastmod>2025-06-10T15:14:45+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/zajecia-indywidualne/konsultacje-z-behawiorystka/</loc>
+    <lastmod>2025-06-10T15:14:45+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/zajecia-grupowe/nosework/</loc>
+    <lastmod>2025-06-10T15:14:45+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/zajecia-grupowe/posluszenstwo/</loc>
+    <lastmod>2025-06-10T15:14:45+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/zajecia-grupowe/spacery-socjalizacyjne/</loc>
+    <lastmod>2025-06-10T15:14:45+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-06-10T15:14:45+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/umow-spotkanie/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/zajecia-grupowe/</loc>
+    <lastmod>2025-06-10T15:14:45+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/zajecia-indywidualne/</loc>
+    <lastmod>2025-06-10T15:14:45+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/zajecia-indywidualne/</loc>
     <lastmod>2025-06-09T11:21:09+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/zajecia-grupowe/</loc>
+    <lastmod>2025-06-10T15:14:45+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/zajecia-indywidualne/</loc>
+    <lastmod>2025-06-10T15:14:45+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/zajecia-grupowe/</loc>
     <lastmod>2025-06-09T14:36:06+02:00</lastmod>

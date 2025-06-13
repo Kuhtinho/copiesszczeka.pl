@@ -1,12 +1,12 @@
 ---
 title: "Nosework - Podstawy"
-date: 2024-03-20
+date: ""
 draft: false
 author: Co Pies Szczeka
 categories: ["Zajecia Grupowe"]
 tags: ["Zajecia Grupowe"]
 description: "Nosework to fascynująca dyscyplina, która wykorzystuje naturalne zdolności węchowe psa. Idealna dla psów w każdym wieku i o różnym poziomie aktywności."
-featured_image: ../assets/images/featured/posluszenstwo.png
+featured_image: ../assets/images/featured/nosework.png
 ---
 
 ## NOSEWORK PODSTAWY

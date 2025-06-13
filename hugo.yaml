@@ -54,6 +54,8 @@ params:
   description: "Profesjonalne szkolenie psów w przyjaznej atmosferze. Oferujemy zajęcia grupowe i indywidualne."
   disable_theme_toggle: false
   disable_stay_uptodate: false
+  disable_date_display: true
+  contact_email: "twoj@email.com"  # Replace this with your actual email address
 
   p1:
     heading: "Nasza misja"
@@ -125,6 +127,10 @@ menu:
       name: Cennik
       url: /cennik/
       weight: 35
+    - identifier: umow-spotkanie
+      name: Umów spotkanie
+      url: /umow-spotkanie/
+      weight: 40
     - identifier: contact
       name: Kontakt
       url: /contact/

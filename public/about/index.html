@@ -45,12 +45,12 @@
 </head>
 
 <body class="bg-zinc-100 dark:bg-gray-800">
-    <div class="top-0 z-50 w-full text-gray-200 bg-gray-900 border-2 border-gray-900 md:sticky border-b-stone-200/10">
+    <div class="top-0 z-50 w-full text-gray-900 bg-white border-2 border-gray-200 md:sticky border-b-stone-200/10">
     <div x-data="{ open: false }" class="flex flex-col max-w-full px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
         <div class="flex flex-row items-center justify-between p-4">
-            <a href="//localhost:1313/" class="flex text-gray-100 transition duration-1000 ease-in-out group">
-                <img src="//localhost:1313/images/site-logo.svg" class="transition-opacity h-9 w-9 group-hover:opacity-50 group-focus:opacity-70" alt="Co Pies Szczeka Logo" />
-                <div class="mt-1 ml-3 text-xl font-black tracking-tight text-gray-100 uppercase transition-colors group-hover:text-gray-400/60">
+            <a href="//localhost:1313/" class="flex text-gray-900 transition duration-1000 ease-in-out group">
+                <img src="//localhost:1313/images/copiesszczeka.png" class="transition-opacity h-9 w-9 group-hover:opacity-50 group-focus:opacity-70" alt="Co Pies Szczeka Logo" />
+                <div class="mt-1 ml-3 text-xl font-black tracking-tight text-gray-900 uppercase transition-colors group-hover:text-gray-600">
                     Co Pies Szczeka</div>
             </a>
             <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open" role="navigation" aria-expanded="false" aria-label="Main" aria-controls="menuItems">
@@ -95,6 +95,12 @@
             
             
             
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="//localhost:1313/umow-spotkanie/" title="Umów spotkanie">
+                Umów spotkanie
+            </a>
+            
+            
+            
             <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="//localhost:1313/contact/" title="Kontakt">
                 Kontakt
             </a>
@@ -115,20 +121,18 @@
     </div>
 </div>
     
+
 <article>
   <header class="mb-4 bg-primary-600">
-    <span class="py-96">
-      <h1 class="py-16 text-5xl font-black text-center text-white capitalize">
-        Nasz Zespół
-      </h1>
-    </span>
+    <h1 class="py-8 text-5xl font-black text-center text-secondary-600 capitalize">
+      Nasz Zespół
+    </h1>
   </header>
   <div class="max-w-4xl mx-auto mt-8 mb-2">
     <div class="px-6">
       
     </div>
   </div>
-  
   <div class="max-w-2xl px-6 pt-6 pb-16 mx-auto prose dark:prose-invert dark:text-white">
     <div class="w-full bg-gray dark:bg-gray-900 py-10">
   <div class="grid gap-4 lg:gap-8 grid-cols-1 lg:grid-cols-2">
@@ -162,11 +166,12 @@
   </div>
 </article>
 
+
     
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
 <script src="//localhost:1313/js/darkmode.js" defer></script>
-<footer class="bg-gray-900">
+<footer class="bg-gray-900 mt-32">
     <div class="max-w-md px-4 py-12 mx-auto overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
         <nav class="flex flex-wrap justify-center -mx-5 -my-2" aria-label="Footer">
             
