@@ -51,19 +51,22 @@ params:
   authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
   moto: "Profesjonalne szkolenie psów"
-  description: "Profesjonalne szkolenie psów w przyjaznej atmosferze. Oferujemy zajęcia grupowe i indywidualne."
+  description: "Jesteśmy zespołem doświadczonych trenerów i behawiorystów, którzy pomagają opiekunom budować lepszą relację ze swoimi psami. Każde spotkanie to indywidualne podejście, analiza potrzeb i konkretne rozwiązania. Działamy w przyjaznej atmosferze, dbając o komfort zarówno psów, jak i ich opiekunów."
   disable_theme_toggle: false
   disable_stay_uptodate: false
   disable_date_display: true
   contact_email: "twoj@email.com"  # Replace this with your actual email address
 
   p1:
-    heading: "Nasza misja"
-    image: "images/pages/our-mission.png"
+    heading: "Profesjonalne podejście do Twojego psa"
+    image: "images/featured/strona_tyt.png"
     content:
-      - text: "Naszym celem jest profesjonalne szkolenie psów w przyjaznej atmosferze. Pomagamy właścicielom zrozumieć swoich pupili i budować z nimi silną więź."
-      - text: "Wierzymy, że każdy pies może być dobrze wyszkolony, a każdy właściciel może nauczyć się skutecznie komunikować ze swoim pupilem. Nasze metody opierają się na pozytywnym wzmocnieniu i zrozumieniu psiej natury."
-      - text: "Dołącz do naszej społeczności i razem z nami odkryj radość z dobrze wyszkolonego psa!"
+      - text: "Jesteśmy zespołem doświadczonych trenerów i behawiorystów, którzy pomagają opiekunom budować lepszą relację ze swoimi psami. Nasze usługi obejmują:"
+      - text: "✓ Konsultacje behawioralne - pomagamy rozwiązać problemy wychowawcze i behawioralne"
+      - text: "✓ Spacery socjalizacyjne - uczymy psów komunikacji i budowania relacji"
+      - text: "✓ Zajęcia indywidualne - dostosowane do potrzeb Twojego psa"
+      - text: "✓ Zajęcia grupowe - nauka w towarzystwie innych psów"
+      - text: "Każde spotkanie to indywidualne podejście, analiza potrzeb i konkretne rozwiązania. Działamy w przyjaznej atmosferze, dbając o komfort zarówno psów, jak i ich opiekunów."
   p2:
     heading: "Just in time for Hacktoberfest with JIT Tailwind."
     image: "images/pages/hacktoberfest.jpg"

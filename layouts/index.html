@@ -14,15 +14,16 @@
                         {{ .Site.Params.Description}}
                     </p>
                 </div>
-                <div class="col-span-6">
-                    {{ $hero := resources.GetMatch "images/pages/tailbliss-rocket-indigo.png" }}
+                <div class="col-span-6 flex justify-center">
+                    {{ $hero := resources.GetMatch "images/featured/strona_tyt.png" }}
 
-                    {{ $thumb := ($hero.Fill "400x400 webp q90") }}
-                    {{ $large := ($hero.Fill "576x576 webp q90") }}
+                    {{ $thumb := ($hero.Fill "200x200 webp q90") }}
+                    {{ $large := ($hero.Fill "300x300 webp q90") }}
 
                     <img srcset="
-                        {{- with $thumb.RelPermalink -}}{{.}} 400w{{- end -}}
-                        {{- with $large.RelPermalink -}}, {{.}} 576w{{- end -}}" src="{{ $hero.RelPermalink }}" width="100%" height="" alt="TailBliss Hero" class="w-full max-w-xl mx-auto rounded-lg" />
+                        {{- with $thumb.RelPermalink -}}{{.}} 200w{{- end -}}
+                        {{- with $large.RelPermalink -}}, {{.}} 300w{{- end -}}" src="{{ $hero.RelPermalink }}" width="100%" height="" alt="TailBliss Hero" class="w-full max-w-xs mx-auto rounded-lg" />
+
                 </div>
             </div>
         </div>
