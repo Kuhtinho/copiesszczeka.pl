@@ -127,14 +127,15 @@ menu:
       name: Cennik
       url: /cennik/
       weight: 35
-    - identifier: umow-spotkanie
-      name: Umów spotkanie
-      url: /umow-spotkanie/
-      weight: 40
     - identifier: contact
       name: Kontakt
       url: /contact/
+      weight: 40
+    - identifier: umow-spotkanie
+      name: Umów spotkanie
+      url: /umow-spotkanie/
       weight: 50
+      class: "bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700"
   categories:
     - identifier: zajecia-grupowe
       name: Zajecia Grupowe
