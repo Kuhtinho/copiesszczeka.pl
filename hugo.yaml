@@ -55,7 +55,7 @@ params:
   disable_theme_toggle: false
   disable_stay_uptodate: false
   disable_date_display: true
-  contact_email: "twoj@email.com"  # Replace this with your actual email address
+  contact_email: "sabaj.kamola@gmail.com"
 
   p1:
     heading: "Profesjonalne podejście do Twojego psa"
@@ -167,27 +167,6 @@ menu:
       post: "Take a look at your statistics"
       url: "#"
       weight: 30
-  footer:
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 10
-    - identifier: blog
-      name: Blog
-      url: /categories/blog/
-      weight: 20
-    - identifier: news
-      name: News
-      url: /categories/news/
-      weight: 30
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 40
-    - identifier: contact
-      name: Contact
-      url: /contact/
-      weight: 50
 
 markup:
   goldmark:

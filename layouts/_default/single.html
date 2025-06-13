@@ -9,13 +9,11 @@
   <div class="lg:pb-24">
     <div class="max-w-screen-md px-4 mx-auto">
         <p class="mb-8 font-light text-center text-gray-500 lg:mb-16 dark:text-gray-400 sm:text-xl">Masz pytanie? Skontaktuj się z nami.</p>
-        <form name="contact" action="https://formsubmit.co/el/{{ .Site.Params.contact_email }}" method="POST" class="space-y-8">
+        <form name="contact" action="https://formsubmit.co/{{ .Site.Params.contact_email }}" method="POST" class="space-y-8">
             <!-- Honeypot -->
             <input type="text" name="_honey" style="display:none">
             <!-- Disable Captcha -->
             <input type="hidden" name="_captcha" value="false">
-            <!-- Success Page -->
-            <input type="hidden" name="_next" value="{{ .Site.BaseURL }}/dziekujemy">
             
             <div class="my-4">
                 <label for="email" class="block mb-2 font-medium text-gray-900 text-md dark:text-gray-300"><strong>Twój Email:</strong></label>
