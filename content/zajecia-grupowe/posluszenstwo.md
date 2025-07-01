@@ -6,7 +6,7 @@ author: Co Pies Szczeka
 categories: ["Zajecia Grupowe"]
 tags: ["Zajecia Grupowe"]
 description: "Kurs posłuszeństwa podstawowego i zaawansowanego to kompleksowy program szkolenia psów, który pomoże Ci zbudować silną więź z pupilem."
-featured_image: ../assets/images/featured/posluszenstwo.png
+featured_image: ../assets/images/featured/posluszenstwo_grupowe.png
 ---
 
 ## POSŁUSZEŃSTWO I

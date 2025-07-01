@@ -85,7 +85,7 @@
                             {{ .Site.Params.P2.Heading }}
                         </h2>
                         {{ range .Site.Params.P2.Content }}
-                        <p class="pb-12 mt-6 text-lg text-gray-900 dark:text-white">
+                        <p class="pb-2 mt-2 text-lg text-gray-900 dark:text-white">
                             {{ .text }}
                         </p>
                         {{ end }}
@@ -106,15 +106,7 @@
                         <rect width="404" height="392" fill="url(#837c3e70-6c3a-44e6-8854-cc48c737b659)"></rect>
                     </svg>
                 </div>
-                <div class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:h-full lg:max-w-none lg:pl-12">
-                    {{ $p2image := resources.Get .Site.Params.P2.Image }}
-                    {{ with $p2image }}
-                    {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
-                    <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="p2" class="w-full rounded-lg shadow-xl lg:h-full lg:w-auto lg:max-w-none" loading="lazy" />
-                    {{ end }}
-                    {{ end }}
 
-                </div>
             </div>
         </div>
     </div>

@@ -6,7 +6,7 @@ author: Co Pies Szczeka
 categories: ["Zajecia Indywidualne"]
 tags: ["Zajecia Indywidualne"]
 description: "Indywidualne konsultacje spacerowe pomagające rozwiązać problemy pojawiające się podczas spacerów z psem."
-featured_image: ../assets/images/featured/posluszenstwo.png
+featured_image: ../assets/images/featured/konsultacja_spacerowa.jpeg
 ---
 
 ## Konsultacje spacerowe
