@@ -14,18 +14,14 @@
 <meta name="theme-color" content="#ffffff">
 <title itemprop="name"> 404 Page not found | Co Pies Szczeka 
 </title>
-<meta name="description" content="W naszej szkole nie chodzi tylko o komendy. Chodzi o porozumienie.
-
- W „Co Pies Szczeka” pomagamy opiekunom zrozumieć emocje ich psów i uczymy, jak czytać ich subtelne sygnały. Pokazujemy, że pies nie szczeka „bez powodu” – każde zachowanie to informacja, która prowadzi do lepszej relacji, jeśli tylko nauczymy się ją właściwie odczytać.
+<meta name="description" content="W „Co Pies Szczeka” pomagamy opiekunom zrozumieć emocje ich psów i uczymy, jak czytać ich subtelne sygnały. Pokazujemy, że pies nie szczeka „bez powodu” – każde zachowanie to informacja, która prowadzi do lepszej relacji, jeśli tylko nauczymy się ją właściwie odczytać.
 Zmieniamy codzienne życie psów i ich ludzi w bardziej świadome, spokojne i pełne wzajemnego zaufania." />
 <meta property="og:title" content="404 Page not found | Co Pies Szczeka" />
 <meta name="twitter:title" content="404 Page not found | Co Pies Szczeka" />
 <meta itemprop="name" content="404 Page not found | Co Pies Szczeka" />
 <meta name="application-name" content="404 Page not found | Co Pies Szczeka" />
 <meta property="og:description"
-      content="W naszej szkole nie chodzi tylko o komendy. Chodzi o porozumienie.
-
- W „Co Pies Szczeka” pomagamy opiekunom zrozumieć emocje ich psów i uczymy, jak czytać ich subtelne sygnały. Pokazujemy, że pies nie szczeka „bez powodu” – każde zachowanie to informacja, która prowadzi do lepszej relacji, jeśli tylko nauczymy się ją właściwie odczytać.
+      content="W „Co Pies Szczeka” pomagamy opiekunom zrozumieć emocje ich psów i uczymy, jak czytać ich subtelne sygnały. Pokazujemy, że pies nie szczeka „bez powodu” – każde zachowanie to informacja, która prowadzi do lepszej relacji, jeśli tylko nauczymy się ją właściwie odczytać.
 Zmieniamy codzienne życie psów i ich ludzi w bardziej świadome, spokojne i pełne wzajemnego zaufania." />
 <meta property="og:site_name" content="Co Pies Szczeka" />
 <meta property="og:url" content="//localhost:1313/404.html" />
@@ -50,7 +46,7 @@ Zmieniamy codzienne życie psów i ich ludzi w bardziej świadome, spokojne i pe
 
 </head>
 
-<body class="bg-zinc-100 dark:bg-gray-800">
+<body class="bg-zinc-100 dark:bg-gray-800 flex flex-col min-h-screen">
     <div class="top-0 z-50 w-full text-gray-900 bg-white border-2 border-gray-200 md:sticky border-b-stone-200/10">
     <div x-data="{ open: false }" class="flex flex-col max-w-full px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
         <div class="flex flex-row items-center justify-between p-4">
@@ -75,23 +71,9 @@ Zmieniamy codzienne życie psów i ich ludzi w bardziej świadome, spokojne i pe
             
             
             
-            <div @click.away="open = false" class="relative" x-data="{ open: false }">
-                <button @click="open = !open" class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline">
-                    <span>Oferta</span>
-                    <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1">
-                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                    </svg>
-                </button>
-                <div x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute right-0 z-30 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48">
-                    <div class="px-2 py-2 bg-white rounded-md shadow text-primary-900">
-                        
-                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline" href="//localhost:1313/categories/zajecia-grupowe/">Zajecia Grupowe</a>
-                        
-                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline" href="//localhost:1313/categories/zajecia-indywidualne/">Zajecia Indywidualne</a>
-                        
-                    </div>
-                </div>
-            </div>
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="//localhost:1313/categories/zajecia-grupowe/" title="Oferta">
+                Oferta
+            </a>
             
             
             
@@ -126,7 +108,8 @@ Zmieniamy codzienne życie psów i ich ludzi w bardziej świadome, spokojne i pe
         </nav>
     </div>
 </div>
-    
+    <main class="flex-1">
+        
 <main id="main">
     <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
         <div class="max-w-screen-sm mx-auto text-center">
@@ -146,6 +129,7 @@ Zmieniamy codzienne życie psów i ich ludzi w bardziej świadome, spokojne i pe
     </div>
 </main>
 
+    </main>
     
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
@@ -154,7 +138,7 @@ Zmieniamy codzienne życie psów i ich ludzi w bardziej świadome, spokojne i pe
     <div class="max-w-md px-4 py-6 mx-auto overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
         <div class="flex justify-center space-x-6">
             
-            <a href="https://facebook.com/nusserstudios" class="text-gray-400 hover:text-gray-300">
+            <a href="https://www.facebook.com/profile.php?id=61555406721205" class="text-gray-400 hover:text-gray-300">
                 <span class="sr-only">Facebook</span>
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path fill-rule="evenodd"
@@ -164,7 +148,7 @@ Zmieniamy codzienne życie psów i ich ludzi w bardziej świadome, spokojne i pe
             </a>
             
             
-            <a href="https://instagram.com/nusserstudios" class="text-gray-400 hover:text-gray-300">
+            <a href="https://www.instagram.com/co.pies.szczeka/" class="text-gray-400 hover:text-gray-300">
                 <span class="sr-only">Instagram</span>
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path fill-rule="evenodd"

@@ -4,7 +4,7 @@ date: ""
 draft: false
 author: Co Pies Szczeka
 categories: ["Zajecia Grupowe"]
-tags: ["Zajecia Grupowe"]
+tags: ["Zajecia Grupowe", "Zajecia Indywidualne"]
 description: "Psi Fitness to zajęcia poprawiające sprawność, koordynację i kondycję Twojego psa. Idealne dla psów w każdym wieku!"
 featured_image: ../assets/images/featured/fitness.png
 ---

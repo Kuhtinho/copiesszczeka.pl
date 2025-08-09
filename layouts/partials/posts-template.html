@@ -25,7 +25,7 @@
                                 <svg class="w-4 h-4 mr-2 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                                 </svg>
-                                60 minut
+                                120 minut
                             </li>
                             <li class="flex items-center">
                                 <svg class="w-4 h-4 mr-2 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -57,6 +57,7 @@
                         {{- end -}}
                         </span>
                     </div>
+                    {{ if not (eq .Section "zajecia-grupowe") }}
                     <div class="flex items-center mt-6">
                         <div class="flex-shrink-0">
                             <span class="sr-only">{{ .Params.author }}</span>
@@ -80,6 +81,7 @@
                             </div>
                         </div>
                     </div>
+                    {{ end }}
                 </div>
             </div>
             {{ end }}

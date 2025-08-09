@@ -18,8 +18,24 @@
   background-color: var(--color-primary) !important;
 }
 
-.hover\:bg-primary-600:hover {
+.hover\:bg-primary-700:hover {
+  background-color: var(--color-primary-dark) !important;
+}
+
+.focus\:ring-primary-300:focus {
+  --tw-ring-color: var(--color-primary) !important;
+}
+
+.dark\:bg-primary-600 {
   background-color: var(--color-primary) !important;
+}
+
+.dark\:hover\:bg-primary-700:hover {
+  background-color: var(--color-primary-dark) !important;
+}
+
+.dark\:focus\:ring-primary-800:focus {
+  --tw-ring-color: var(--color-primary-dark) !important;
 }
 
 .text-primary-600 {

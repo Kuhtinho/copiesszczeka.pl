@@ -44,7 +44,7 @@
 
 </head>
 
-<body class="bg-zinc-100 dark:bg-gray-800">
+<body class="bg-zinc-100 dark:bg-gray-800 flex flex-col min-h-screen">
     <div class="top-0 z-50 w-full text-gray-900 bg-white border-2 border-gray-200 md:sticky border-b-stone-200/10">
     <div x-data="{ open: false }" class="flex flex-col max-w-full px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
         <div class="flex flex-row items-center justify-between p-4">
@@ -69,23 +69,9 @@
             
             
             
-            <div @click.away="open = false" class="relative" x-data="{ open: false }">
-                <button @click="open = !open" class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline">
-                    <span>Oferta</span>
-                    <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1">
-                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                    </svg>
-                </button>
-                <div x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute right-0 z-30 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48">
-                    <div class="px-2 py-2 bg-white rounded-md shadow text-primary-900">
-                        
-                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline" href="//localhost:1313/categories/zajecia-grupowe/">Zajecia Grupowe</a>
-                        
-                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline" href="//localhost:1313/categories/zajecia-indywidualne/">Zajecia Indywidualne</a>
-                        
-                    </div>
-                </div>
-            </div>
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="//localhost:1313/categories/zajecia-grupowe/" title="Oferta">
+                Oferta
+            </a>
             
             
             
@@ -120,7 +106,8 @@
         </nav>
     </div>
 </div>
-    
+    <main class="flex-1">
+        
 
 <article>
   <header class="mb-4 bg-primary-600">
@@ -128,51 +115,59 @@
       Nasz Zespół
     </h1>
   </header>
-  <div class="max-w-4xl mx-auto mt-8 mb-2">
-    <div class="px-6">
+  <div class="w-full bg-gray dark:bg-gray-900 py-16">
+    <div class="max-w-[1400px] mx-auto px-8 sm:px-12 lg:px-16">
       
+      <div class="overflow-hidden shadow-lg rounded-lg">
+        
+        <div class="grid grid-cols-4 bg-white dark:bg-gray-900 min-h-[1500px] gap-8">
+          
+          <div class="p-12 pr-20 border-r-2 border-gray-300 dark:border-gray-600 flex flex-col">
+            <div class="w-full aspect-[2/3] overflow-hidden rounded-lg shadow-md">
+              <img src="//localhost:1313/images/nasz_zespol/ola.jpeg" alt="Ola Sabaj" class="w-full h-full object-cover object-center" />
+            </div>
+          </div>
+          
+          
+          <div class="p-12 pt-24 border-r-2 border-gray-300 dark:border-gray-600 text-center lg:text-left flex flex-col justify-center">
+            <h2 class="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl xl:text-3xl dark:text-white">
+              Ola Sabaj
+            </h2>
+            <p class="mb-6 font-normal text-gray-900 text-sm md:text-base dark:text-gray-50">
+              Profesjonalne szkolenie psów w przyjaznej atmosferze. Oferujemy zajęcia grupowe i indywidualne. Ola jest najlepszem trenerem psow, behaviorystka oraz doradca we wszelkich psich tematach. Jest brawo, ekstra i super dziewczyna!
+            </p>
+          </div>
+
+          
+          <div class="p-12 pr-20 border-r-2 border-gray-300 dark:border-gray-600 flex flex-col">
+            <div class="w-full aspect-[2/3] overflow-hidden rounded-lg shadow-md">
+              <img src="//localhost:1313/images/nasz_zespol/marta.jpg" alt="Marta Kamola" class="w-full h-full object-cover object-center" />
+            </div>
+          </div>
+
+          
+          <div class="p-12 pt-24 text-center lg:text-left flex flex-col justify-center">
+            <h2 class="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl xl:text-3xl dark:text-white">
+              Marta Kamola
+            </h2>
+            <p class="mb-6 font-small text-gray-900 text-sm md:text-base dark:text-gray-50">
+              Marta – trenerka, która słucha psów i ludzi<br><br>
+              Marta jest trenerką psów, instruktorką Polskiej Ligi Nosework oraz instruktorką podstaw psiego fitnessu. W pracy z psami i ich opiekunami stawia na empatię, zrozumienie emocji i szukanie przyczyn zachowań – nie tylko objawów.<br><br>
+              Z Martą spotkacie się na:<br>
+               • treningach posłuszeństwa opartych na relacji,<br>
+               • zajęciach noseworku – węchowej przygodzie rozwijającej koncentrację i pewność siebie,<br>
+               • spacerach socjalizacyjnych, podczas których psy uczą się spokojnej obecności wśród innych,<br>
+               • oraz na podstawach psiego fitnessu, wspierającego zdrowie i świadomość ciała psa.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="max-w-2xl px-6 pt-6 pb-16 mx-auto prose dark:prose-invert dark:text-white">
-    <div class="w-full bg-gray dark:bg-gray-900 py-10">
-  <div class="grid gap-4 lg:gap-8 grid-cols-1 lg:grid-cols-2">
-    <!-- Left section -->
-    <div class="text-center lg:text-left flex flex-col justify-center">
-      <h1 class="mb-2 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl xl:text-4xl dark:text-white">
-        Ola Sabaj
-      </h1>
-      <p class="mb-6 font-normal text-gray-900 text-sm md:text-base dark:text-gray-50">
-        Profesjonalne szkolenie psów w przyjaznej atmosferze. Oferujemy zajęcia grupowe i indywidualne. Ola jest najlepszem trenerem psow, behaviorystka oraz doradca we wszelkich psich tematach. Jest brawo, ekstra i super dziewczyna!
-      </p>
-    </div>
-    <!-- Right section -->
-    <div class="flex items-center justify-center">
-      <img src="//localhost:1313/images/nasz_zespol/OlaSabaj.png" alt="Ola Sabaj" class="w-full rounded-lg" />
-    </div>
-    <!-- Right section -->
-    <div class="flex items-center justify-center">
-      <img src="//localhost:1313/images/nasz_zespol/MartaKamola.jpg" alt="Marta Kamola" class="w-full rounded-lg" />
-    </div>
-    <div class="text-center lg:text-left flex flex-col justify-center">
-      <h1 class="mb-2 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl xl:text-4xl dark:text-white">
-        Marta Kamola
-      </h1>
-      <p class="mb-6 font-small text-gray-900 text-sm md:text-base dark:text-gray-50">
-        Marta – trenerka, która słucha psów i ludzi<br><br>
-        Marta jest trenerką psów, instruktorką Polskiej Ligi Nosework oraz instruktorką podstaw psiego fitnessu. W pracy z psami i ich opiekunami stawia na empatię, zrozumienie emocji i szukanie przyczyn zachowań – nie tylko objawów.<br><br>
-        Z Martą spotkacie się na:<br>
-         • treningach posłuszeństwa opartych na relacji,<br>
-         • zajęciach noseworku – węchowej przygodzie rozwijającej koncentrację i pewność siebie,<br>
-         • spacerach socjalizacyjnych, podczas których psy uczą się spokojnej obecności wśród innych,<br>
-         • oraz na podstawach psiego fitnessu, wspierającego zdrowie i świadomość ciała psa.
-      </p>
-    </div>
-  </div>
-</div>
   </div>
 </article>
 
 
+    </main>
     
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
@@ -181,7 +176,7 @@
     <div class="max-w-md px-4 py-6 mx-auto overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
         <div class="flex justify-center space-x-6">
             
-            <a href="https://facebook.com/nusserstudios" class="text-gray-400 hover:text-gray-300">
+            <a href="https://www.facebook.com/profile.php?id=61555406721205" class="text-gray-400 hover:text-gray-300">
                 <span class="sr-only">Facebook</span>
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path fill-rule="evenodd"
@@ -191,7 +186,7 @@
             </a>
             
             
-            <a href="https://instagram.com/nusserstudios" class="text-gray-400 hover:text-gray-300">
+            <a href="https://www.instagram.com/co.pies.szczeka/" class="text-gray-400 hover:text-gray-300">
                 <span class="sr-only">Instagram</span>
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path fill-rule="evenodd"

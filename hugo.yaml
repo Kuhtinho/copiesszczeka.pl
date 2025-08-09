@@ -51,27 +51,28 @@ params:
   authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
   moto: "Zrozum psa, zbuduj relację"
-  description: "W naszej szkole nie chodzi tylko o komendy. Chodzi o porozumienie.\n\n W „Co Pies Szczeka” pomagamy opiekunom zrozumieć emocje ich psów i uczymy, jak czytać ich subtelne sygnały. Pokazujemy, że pies nie szczeka „bez powodu” – każde zachowanie to informacja, która prowadzi do lepszej relacji, jeśli tylko nauczymy się ją właściwie odczytać.\nZmieniamy codzienne życie psów i ich ludzi w bardziej świadome, spokojne i pełne wzajemnego zaufania."
+  description: "W „Co Pies Szczeka” pomagamy opiekunom zrozumieć emocje ich psów i uczymy, jak czytać ich subtelne sygnały. Pokazujemy, że pies nie szczeka „bez powodu” – każde zachowanie to informacja, która prowadzi do lepszej relacji, jeśli tylko nauczymy się ją właściwie odczytać.\nZmieniamy codzienne życie psów i ich ludzi w bardziej świadome, spokojne i pełne wzajemnego zaufania."
   disable_theme_toggle: false
-  disable_stay_uptodate: false
+  disable_stay_uptodate: true
   disable_date_display: true
   contact_email: "sabaj.kamola@gmail.com"
 
   p1:
     heading: "Co oferujemy:"
-    image: "images/featured/olasabaj.png"
+    image: "images/featured/ola_marta_1.jpg"
     content:
-      - text: "✓ Konsultacje behawioralne oparte na emocjach i zrozumieniu przyczyn zachowania." 
-      - text: "✓ Treningi indywidualne i grupowe, w duchu porozumienia, a nie dominacji."
-      - text: "✓ Spacery socjalizacyjne i treningi węchowe (nosework), które budują spokój i pewność siebie."
+      - text: "✓ Treningi indywidualne i grupowe, podczas których nauczymy was przydatnych zachowań."
+      - text: "✓ Spacery socjalizacyjne i treningi węchowe (nosework), które budują pewność siebie i twojego psa."
       - text: "✓ Treningi psiego fitnessu, które wspierają prawidłowy rozwój mięśni, koordynację i świadomość ciała psa."
+      - text: "✓ Konsultacje behawioralne oparte na emocjach i zrozumieniu przyczyn zachowania." 
+
   p2:
     heading: "Dla kogo jesteśmy?"
-    image: "images/featured/nilik.jpg"
+    image: "images/featured/lando_nilik.jpeg"
     content:
       - text: "✓ Dla opiekunów, którzy czują się zagubieni w psim zachowaniu."
-      - text: "✓ Dla tych, którzy chcą lepiej zrozumieć swojego psa, nie tylko go „wyszkolić”."
-      - text: "✓ Dla psów lękliwych, reaktywnych, nadpobudliwych – ale też dla tych „idealnych”, którym chcemy dać jeszcze więcej zrozumienia."
+      - text: "✓ Dla tych, którzy chcą nie tylko „wyszkolić” swojego psa, ale też lepiej zrozumieć."
+      - text: "✓ Dla psów lękliwych, reaktywnych, nadpobudliwych i tych „idealnych”, którym chcemy dać jeszcze więcej zrozumienia."
 
   p4:
     heading: "From the blog"
@@ -92,10 +93,10 @@ params:
       url: 'https://github.com/nusserstudios'
     facebook:
       enabled: true
-      url: 'https://facebook.com/nusserstudios'
+      url: 'https://www.facebook.com/profile.php?id=61555406721205'
     instagram:
       enabled: true
-      url: 'https://instagram.com/nusserstudios'
+      url: 'https://www.instagram.com/co.pies.szczeka/'
     twitter:
       enabled: true
       url: 'https://twitter.com/nusserstudios'
@@ -107,9 +108,9 @@ menu:
       name: Nasz Zespół
       url: /about/
       weight: 20
-    - identifier: categories
-      pre: dropdown
+    - identifier: oferta
       name: Oferta
+      url: /categories/zajecia-grupowe/
       weight: 30
     - identifier: cennik
       name: Cennik
@@ -124,15 +125,8 @@ menu:
       url: /umow-spotkanie/
       weight: 50
       class: "bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700"
-  categories:
-    - identifier: zajecia-grupowe
-      name: Zajecia Grupowe
-      url: /categories/zajecia-grupowe/
-      weight: 10
-    - identifier: zajecia-indywidualne
-      name: Zajecia Indywidualne
-      url: /categories/zajecia-indywidualne/
-      weight: 20
+
+
   dropdown:
     - identifier: appearance
       pre: stars # can be stars, comments or piechart

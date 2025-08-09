@@ -82,6 +82,63 @@
     </div>
   </div>
 </article>
+{{ else if eq .File.Path "about.md" }}
+<article>
+  <header class="mb-4 bg-primary-600">
+    <h1 class="py-8 text-5xl font-black text-center text-secondary-600 capitalize">
+      {{ .Title }}
+    </h1>
+  </header>
+  <div class="w-full bg-gray dark:bg-gray-900 py-16">
+    <div class="max-w-[1400px] mx-auto px-8 sm:px-12 lg:px-16">
+      <!-- Table-like structure -->
+      <div class="overflow-hidden shadow-lg rounded-lg">
+        <!-- Content row - Force 4 columns using grid -->
+        <div class="grid grid-cols-4 bg-white dark:bg-gray-900 min-h-[1500px] gap-8">
+          <!-- Ola Sabaj image -->
+          <div class="p-12 pr-20 border-r-2 border-gray-300 dark:border-gray-600 flex flex-col">
+            <div class="w-full aspect-[2/3] overflow-hidden rounded-lg shadow-md">
+              <img src="/images/nasz_zespol/ola.jpeg" alt="Ola Sabaj" class="w-full h-full object-cover object-center" />
+            </div>
+          </div>
+          
+          <!-- Ola Sabaj text -->
+          <div class="p-12 pt-24 border-r-2 border-gray-300 dark:border-gray-600 text-center lg:text-left flex flex-col justify-center">
+            <h2 class="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl xl:text-3xl dark:text-white">
+              Ola Sabaj
+            </h2>
+            <p class="mb-6 font-normal text-gray-900 text-sm md:text-base dark:text-gray-50">
+              Profesjonalne szkolenie psów w przyjaznej atmosferze. Oferujemy zajęcia grupowe i indywidualne. Ola jest najlepszem trenerem psow, behaviorystka oraz doradca we wszelkich psich tematach. Jest brawo, ekstra i super dziewczyna!
+            </p>
+          </div>
+
+          <!-- Marta Kamola image -->
+          <div class="p-12 pr-20 border-r-2 border-gray-300 dark:border-gray-600 flex flex-col">
+            <div class="w-full aspect-[2/3] overflow-hidden rounded-lg shadow-md">
+              <img src="/images/nasz_zespol/marta.jpg" alt="Marta Kamola" class="w-full h-full object-cover object-center" />
+            </div>
+          </div>
+
+          <!-- Marta Kamola text -->
+          <div class="p-12 pt-24 text-center lg:text-left flex flex-col justify-center">
+            <h2 class="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl xl:text-3xl dark:text-white">
+              Marta Kamola
+            </h2>
+            <p class="mb-6 font-small text-gray-900 text-sm md:text-base dark:text-gray-50">
+              Marta – trenerka, która słucha psów i ludzi<br><br>
+              Marta jest trenerką psów, instruktorką Polskiej Ligi Nosework oraz instruktorką podstaw psiego fitnessu. W pracy z psami i ich opiekunami stawia na empatię, zrozumienie emocji i szukanie przyczyn zachowań – nie tylko objawów.<br><br>
+              Z Martą spotkacie się na:<br>
+               • treningach posłuszeństwa opartych na relacji,<br>
+               • zajęciach noseworku – węchowej przygodzie rozwijającej koncentrację i pewność siebie,<br>
+               • spacerach socjalizacyjnych, podczas których psy uczą się spokojnej obecności wśród innych,<br>
+               • oraz na podstawach psiego fitnessu, wspierającego zdrowie i świadomość ciała psa.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
 {{ else }}
 <article>
   <header class="mb-4 bg-primary-600">

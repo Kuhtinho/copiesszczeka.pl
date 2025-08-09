@@ -1,0 +1,32 @@
+{{ define "main" }}
+<article>
+  <header class="mb-4 bg-primary-600">
+    <h1 class="py-8 text-5xl font-black text-center text-secondary-600 capitalize">
+      {{ .Title }}
+    </h1>
+  </header>
+  
+  <div class="max-w-6xl mx-auto mt-8 mb-2 px-6">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <!-- Image on the left -->
+      <div class="bg-blue-100 p-4 rounded">
+        {{ with .Params.featured_image }}
+        {{ with resources.Get . }}
+        {{ $featuredimage := (.Resize "800x webp q80").RelPermalink }}
+        <img src="{{ $featuredimage }}" 
+             class="w-full rounded-lg shadow-lg"
+             alt="{{ .Params.title }}" />
+        {{ end }}
+        {{ end }}
+      </div>
+      
+      <!-- Content on the right -->
+      <div class="bg-green-100 p-4 rounded prose dark:prose-invert">
+        {{.Content}}
+      </div>
+    </div>
+  </div>
+</article>
+{{ end }}
+
+
