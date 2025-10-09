@@ -4,74 +4,145 @@
     <h1 class="py-8 text-5xl font-black text-center text-secondary-600 capitalize">
       {{ .Title }}
     </h1>
+    <p class="text-left text-secondary-100 pb-6 text-lg max-w-3xl mx-auto px-4">
+      Kompleksowe usługi szkoleniowe i behawioralne dla psów w różnych formach i cenach, dostosowanych do indywidualnych potrzeb
+    </p>
   </header>
+
+  <!-- Main pricing grid -->
   <div class="w-full bg-gray dark:bg-gray-900 py-16">
     <div class="max-w-[1400px] mx-auto px-8 sm:px-12 lg:px-16">
-      <!-- Table-like structure -->
       <div class="overflow-hidden shadow-lg rounded-lg">
-        <!-- Content row - Force 4 columns using grid -->
-        <div class="grid grid-cols-4 bg-white dark:bg-gray-900 min-h-[800px] gap-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 bg-white dark:bg-gray-900 gap-8">
+          
           <!-- Kurs posłuszeństwa -->
-          <div class="p-12 pr-20 border-r-2 border-gray-300 dark:border-gray-600 flex flex-col">
-            <div class="w-full aspect-[2/3] overflow-hidden rounded-lg shadow-md bg-gradient-to-br from-blue-100 to-indigo-200 dark:from-blue-900 dark:to-indigo-800 flex items-center justify-center">
+          <div class="p-8 border-r-2 border-gray-300 dark:border-gray-600 flex flex-col">
+            <div class="w-full aspect-[2/3] overflow-hidden rounded-lg shadow-md bg-gradient-to-br from-blue-100 to-indigo-200 dark:from-blue-900 dark:to-indigo-800 flex items-center justify-center mb-6">
               <div class="text-center">
-                <svg class="w-24 h-24 mx-auto mb-4 text-blue-600 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg class="w-20 h-20 mx-auto mb-4 text-blue-600 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                 </svg>
-                <h3 class="text-xl font-bold text-blue-800 dark:text-blue-200">Kurs posłuszeństwa</h3>
+                <h3 class="text-lg font-bold text-blue-800 dark:text-blue-200">Kurs posłuszeństwa</h3>
               </div>
             </div>
-          </div>
-          
-          <!-- Kurs posłuszeństwa text -->
-          <div class="p-12 pt-24 border-r-2 border-gray-300 dark:border-gray-600 text-center lg:text-left flex flex-col justify-center">
-            <h2 class="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl xl:text-3xl dark:text-white">
-              Kurs posłuszeństwa
-            </h2>
-            <div class="mb-6 font-normal text-gray-900 text-sm md:text-base dark:text-gray-50 space-y-4">
-              <div class="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg">
-                <h4 class="font-bold text-blue-800 dark:text-blue-200 mb-2">Opcja A - Indywidualne</h4>
-                <p class="text-sm">7 spotkań indywidualnych (raz w tygodniu 60 min)</p>
-                <p class="text-lg font-bold text-blue-600 dark:text-blue-400 mt-2">800 zł</p>
-                <p class="text-xs text-gray-600 dark:text-gray-400">Płatność w 2 ratach lub jednorazowo</p>
-              </div>
-              <div class="bg-green-50 dark:bg-green-900/20 p-4 rounded-lg">
-                <h4 class="font-bold text-green-800 dark:text-green-200 mb-2">Opcja B - Grupowe</h4>
-                <p class="text-sm">7 spotkań grupowych (raz w tygodniu 60 min)</p>
-                <p class="text-lg font-bold text-green-600 dark:text-green-400 mt-2">700 zł</p>
+            <div class="text-left flex-1">
+              <h2 class="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl dark:text-white">
+                Kurs posłuszeństwa
+              </h2>
+              <div class="space-y-4">
+                <div class="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg">
+                  <h4 class="font-bold text-blue-800 dark:text-blue-200 mb-2">Kurs podstawowy</h4>
+                  <p class="text-sm">7 spotkań grupowych (60 min)</p>
+                  <p class="text-lg font-bold text-blue-600 dark:text-blue-400 mt-2">700 zł</p>
+                  <p class="text-xs text-gray-600 dark:text-gray-400">Maksymalnie 4 psy w grupie</p>
+                </div>
+                <div class="bg-indigo-50 dark:bg-indigo-900/20 p-4 rounded-lg">
+                  <h4 class="font-bold text-indigo-800 dark:text-indigo-200 mb-2">Kurs zaawansowany</h4>
+                  <p class="text-sm">6 spotkań grupowych (60 min)</p>
+                  <p class="text-lg font-bold text-indigo-600 dark:text-indigo-400 mt-2">600 zł</p>
+                  <p class="text-xs text-gray-600 dark:text-gray-400">Dla psów po kursie podstawowym</p>
+                </div>
+                <div class="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg">
+                  <h4 class="font-bold text-blue-800 dark:text-blue-200 mb-2">Zajęcia indywidualne</h4>
+                  <p class="text-sm">60 minut pracy jeden na jeden</p>
+                  <p class="text-lg font-bold text-blue-600 dark:text-blue-400 mt-2">od 140 zł</p>
+                  <p class="text-xs text-gray-600 dark:text-gray-400">Cena zależy od lokalizacji</p>
+                </div>
               </div>
             </div>
           </div>
 
           <!-- Zajęcia specjalistyczne -->
-          <div class="p-12 pr-20 border-r-2 border-gray-300 dark:border-gray-600 flex flex-col">
-            <div class="w-full aspect-[2/3] overflow-hidden rounded-lg shadow-md bg-gradient-to-br from-purple-100 to-pink-200 dark:from-purple-900 dark:to-pink-800 flex items-center justify-center">
+          <div class="p-8 border-r-2 border-gray-300 dark:border-gray-600 flex flex-col">
+            <div class="w-full aspect-[2/3] overflow-hidden rounded-lg shadow-md bg-gradient-to-br from-purple-100 to-pink-200 dark:from-purple-900 dark:to-pink-800 flex items-center justify-center mb-6">
               <div class="text-center">
-                <svg class="w-24 h-24 mx-auto mb-4 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg class="w-20 h-20 mx-auto mb-4 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
                 </svg>
-                <h3 class="text-xl font-bold text-purple-800 dark:text-purple-200">Zajęcia specjalistyczne</h3>
+                <h3 class="text-lg font-bold text-purple-800 dark:text-purple-200">Zajęcia specjalistyczne</h3>
+              </div>
+            </div>
+            <div class="text-left flex-1">
+              <h2 class="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl dark:text-white">
+                Zajęcia specjalistyczne
+              </h2>
+              <div class="space-y-4">
+                <div class="bg-purple-50 dark:bg-purple-900/20 p-4 rounded-lg">
+                  <h4 class="font-bold text-purple-800 dark:text-purple-200 mb-2">Psi fitness</h4>
+                  <p class="text-sm">Ćwiczenia kondycyjne i rehabilitacyjne</p>
+                  <p class="text-lg font-bold text-purple-600 dark:text-purple-400 mt-2">od 140 zł/godz</p>
+                </div>
+                <div class="bg-pink-50 dark:bg-pink-900/20 p-4 rounded-lg">
+                  <h4 class="font-bold text-pink-800 dark:text-pink-200 mb-2">Nosework</h4>
+                  <p class="text-sm">Trening węchowy i tropienie</p>
+                  <p class="text-lg font-bold text-pink-600 dark:text-pink-400 mt-2">od 140 zł/godz</p>
+                </div>
+                <div class="bg-purple-50 dark:bg-purple-900/20 p-4 rounded-lg">
+                  <h4 class="font-bold text-purple-800 dark:text-purple-200 mb-2">Treningi zaawansowane</h4>
+                  <p class="text-sm">Specjalistyczne umiejętności</p>
+                  <p class="text-lg font-bold text-purple-600 dark:text-purple-400 mt-2">od 140 zł/godz</p>
+                </div>
               </div>
             </div>
           </div>
 
-          <!-- Zajęcia specjalistyczne text -->
-          <div class="p-12 pt-24 text-center lg:text-left flex flex-col justify-center">
-            <h2 class="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl xl:text-3xl dark:text-white">
-              Zajęcia specjalistyczne
-            </h2>
-            <div class="mb-6 font-normal text-gray-900 text-sm md:text-base dark:text-gray-50 space-y-4">
-              <div class="bg-purple-50 dark:bg-purple-900/20 p-4 rounded-lg">
-                <h4 class="font-bold text-purple-800 dark:text-purple-200 mb-2">Oferowane zajęcia:</h4>
-                <ul class="text-sm space-y-1 text-left">
-                  <li>• Podstawy fitness</li>
-                  <li>• Nosework</li>
-                  <li>• Treningi z posłuszeństwa dla zaawansowanych</li>
-                </ul>
-                <div class="mt-3 p-3 bg-white dark:bg-gray-800 rounded border">
-                  <p class="text-sm"><strong>Zajęcia indywidualne:</strong></p>
-                  <p class="text-lg font-bold text-purple-600 dark:text-purple-400">od 140 zł za godzinę</p>
-                  <p class="text-xs text-gray-600 dark:text-gray-400">Cena zależy od miejsca spotkań</p>
+          <!-- Spacery i socjalizacja -->
+          <div class="p-8 border-r-2 border-gray-300 dark:border-gray-600 flex flex-col">
+            <div class="w-full aspect-[2/3] overflow-hidden rounded-lg shadow-md bg-gradient-to-br from-green-100 to-emerald-200 dark:from-green-900 dark:to-emerald-800 flex items-center justify-center mb-6">
+              <div class="text-center">
+                <svg class="w-20 h-20 mx-auto mb-4 text-green-600 dark:text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <h3 class="text-lg font-bold text-green-800 dark:text-green-200">Spacery i socjalizacja</h3>
+              </div>
+            </div>
+            <div class="text-left flex-1">
+              <h2 class="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl dark:text-white">
+                Spacery i socjalizacja
+              </h2>
+              <div class="space-y-4">
+                <div class="bg-green-50 dark:bg-green-900/20 p-4 rounded-lg">
+                  <h4 class="font-bold text-green-800 dark:text-green-200 mb-2">Konsultacje spacerowe</h4>
+                  <p class="text-sm">Spacery socjalizacyjne w grupie 2-4 psy</p>
+                  <p class="text-lg font-bold text-green-600 dark:text-green-400 mt-2">120 zł/godz</p>
+                  <p class="text-xs text-gray-600 dark:text-gray-400">Na ogrodzonym placu</p>
+                </div>
+                <div class="bg-emerald-50 dark:bg-emerald-900/20 p-4 rounded-lg">
+                  <h4 class="font-bold text-emerald-800 dark:text-emerald-200 mb-2">W pakiecie spotkań</h4>
+                  <p class="text-sm">Rabat przy większej liczbie spotkań</p>
+                  <p class="text-lg font-bold text-emerald-600 dark:text-emerald-400">100 zł/godz</p>
+                  <p class="text-xs text-gray-600 dark:text-gray-400">Minimum 5 spotkań</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Konsultacje behawioralne -->
+          <div class="p-8 flex flex-col">
+            <div class="w-full aspect-[2/3] overflow-hidden rounded-lg shadow-md bg-gradient-to-br from-orange-100 to-red-200 dark:from-orange-900 dark:to-red-800 flex items-center justify-center mb-6">
+              <div class="text-center">
+                <svg class="w-20 h-20 mx-auto mb-4 text-orange-600 dark:text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
+                </svg>
+                <h3 class="text-lg font-bold text-orange-800 dark:text-orange-200">Konsultacje behawioralne</h3>
+              </div>
+            </div>
+            <div class="text-left flex-1">
+              <h2 class="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl dark:text-white">
+                Konsultacje behawioralne
+              </h2>
+              <div class="space-y-4">
+                <div class="bg-orange-50 dark:bg-orange-900/20 p-4 rounded-lg">
+                  <h4 class="font-bold text-orange-800 dark:text-orange-200 mb-2">Konsultacja z dojazdem</h4>
+                  <p class="text-sm">Kompleksowa konsultacja w domu klienta</p>
+                  <p class="text-lg font-bold text-orange-600 dark:text-orange-400 mt-2">270 zł</p>
+                  <p class="text-xs text-gray-600 dark:text-gray-400">Czas: 2 godziny + raport</p>
+                </div>
+                <div class="bg-red-50 dark:bg-red-900/20 p-4 rounded-lg">
+                  <h4 class="font-bold text-red-800 dark:text-red-200 mb-2">Konsultacja w terenie</h4>
+                  <p class="text-sm">Spotkanie w ustalonym miejscu</p>
+                  <p class="text-lg font-bold text-red-600 dark:text-red-400">od 140 zł/godz</p>
+                  <p class="text-xs text-gray-600 dark:text-gray-400">Bez dojazdu</p>
                 </div>
               </div>
             </div>
@@ -81,75 +152,54 @@
     </div>
   </div>
 
-  <!-- Second row for remaining services -->
+  <!-- Additional information section -->
   <div class="w-full bg-gray-50 dark:bg-gray-800 py-16">
-    <div class="max-w-[1400px] mx-auto px-8 sm:px-12 lg:px-16">
-      <div class="overflow-hidden shadow-lg rounded-lg">
-        <div class="grid grid-cols-4 bg-white dark:bg-gray-900 min-h-[600px] gap-8">
-          <!-- Spacery i socjalizacja -->
-          <div class="p-12 pr-20 border-r-2 border-gray-300 dark:border-gray-600 flex flex-col">
-            <div class="w-full aspect-[2/3] overflow-hidden rounded-lg shadow-md bg-gradient-to-br from-green-100 to-emerald-200 dark:from-green-900 dark:to-emerald-800 flex items-center justify-center">
-              <div class="text-center">
-                <svg class="w-24 h-24 mx-auto mb-4 text-green-600 dark:text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                </svg>
-                <h3 class="text-xl font-bold text-green-800 dark:text-green-200">Spacery i socjalizacja</h3>
-              </div>
-            </div>
+    <div class="max-w-4xl mx-auto px-8 sm:px-12 lg:px-16">
+      <div class="text-left mb-12">
+        <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-4">Dodatkowe informacje</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-300">Wszystkie nasze usługi są dostosowane do indywidualnych potrzeb Twojego psa</p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white dark:bg-gray-900 p-8 rounded-lg shadow-lg">
+          <div class="flex items-center mb-4">
+            <svg class="w-8 h-8 text-green-600 dark:text-green-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <h3 class="text-xl font-bold text-gray-900 dark:text-white">Płatności</h3>
           </div>
-          
-          <!-- Spacery i socjalizacja text -->
-          <div class="p-12 pt-24 border-r-2 border-gray-300 dark:border-gray-600 text-center lg:text-left flex flex-col justify-center">
-            <h2 class="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl xl:text-3xl dark:text-white">
-              Spacery i socjalizacja
-            </h2>
-            <div class="mb-6 font-normal text-gray-900 text-sm md:text-base dark:text-gray-50 space-y-4">
-              <div class="bg-green-50 dark:bg-green-900/20 p-4 rounded-lg">
-                <h4 class="font-bold text-green-800 dark:text-green-200 mb-2">Konsultacje spacerowe</h4>
-                <p class="text-sm">Spacery socjalizacyjne w grupie 2-4 psy</p>
-                <p class="text-lg font-bold text-green-600 dark:text-green-400 mt-2">120 zł za godzinę</p>
-              </div>
-              <div class="bg-emerald-50 dark:bg-emerald-900/20 p-4 rounded-lg">
-                <h4 class="font-bold text-emerald-800 dark:text-emerald-200 mb-2">W pakiecie spotkań</h4>
-                <p class="text-lg font-bold text-emerald-600 dark:text-emerald-400">100 zł za godzinę</p>
-              </div>
-            </div>
+          <ul class="text-gray-600 dark:text-gray-300 space-y-2">
+            <li>• Możliwość płatności w ratach dla kursów</li>
+            <li>• Wszystkie ceny zawierają podatki</li>
+            <li>• Akceptujemy gotówkę i przelewy</li>
+            <li>• Faktury dostępne na życzenie</li>
+          </ul>
+        </div>
+        
+        <div class="bg-white dark:bg-gray-900 p-8 rounded-lg shadow-lg">
+          <div class="flex items-center mb-4">
+            <svg class="w-8 h-8 text-blue-600 dark:text-blue-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <h3 class="text-xl font-bold text-gray-900 dark:text-white">Organizacja zajęć</h3>
           </div>
-
-          <!-- Konsultacje behawioralne -->
-          <div class="p-12 pr-20 border-r-2 border-gray-300 dark:border-gray-600 flex flex-col">
-            <div class="w-full aspect-[2/3] overflow-hidden rounded-lg shadow-md bg-gradient-to-br from-orange-100 to-red-200 dark:from-orange-900 dark:to-red-800 flex items-center justify-center">
-              <div class="text-center">
-                <svg class="w-24 h-24 mx-auto mb-4 text-orange-600 dark:text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
-                </svg>
-                <h3 class="text-xl font-bold text-orange-800 dark:text-orange-200">Konsultacje behawioralne</h3>
-              </div>
-            </div>
-          </div>
-
-          <!-- Konsultacje behawioralne text -->
-          <div class="p-12 pt-24 text-center lg:text-left flex flex-col justify-center">
-            <h2 class="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl xl:text-3xl dark:text-white">
-              Konsultacje behawioralne
-            </h2>
-            <div class="mb-6 font-normal text-gray-900 text-sm md:text-base dark:text-gray-50">
-              <div class="bg-orange-50 dark:bg-orange-900/20 p-4 rounded-lg">
-                <h4 class="font-bold text-orange-800 dark:text-orange-200 mb-2">Konsultacja behawioralna</h4>
-                <p class="text-sm">Kompleksowa konsultacja z dojazdem i raportem</p>
-                <p class="text-lg font-bold text-orange-600 dark:text-orange-400 mt-2">270 zł</p>
-                <p class="text-xs text-gray-600 dark:text-gray-400">Czas trwania: 2 godziny</p>
-                <div class="mt-3 p-3 bg-white dark:bg-gray-800 rounded border">
-                  <p class="text-sm"><strong>Zawiera:</strong></p>
-                  <ul class="text-xs space-y-1 text-left mt-2">
-                    <li>• Dojazd do klienta</li>
-                    <li>• Szczegółowy raport</li>
-                    <li>• Indywidualne zalecenia</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+          <ul class="text-gray-600 dark:text-gray-300 space-y-2">
+            <li>• Zajęcia grupowe: max 4 psy</li>
+            <li>• Miejsce: ogrodzony plac na Wawrze</li>
+            <li>• Czas trwania: 60 minut</li>
+            <li>• Materiały szkoleniowe w cenie</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="text-left mt-12">
+        <div class="bg-primary-50 dark:bg-primary-900/20 p-6 rounded-lg inline-block">
+          <p class="text-lg text-primary-800 dark:text-primary-200 font-semibold">
+            Nie jesteś pewien, które zajęcia będą najlepsze dla Twojego psa?
+          </p>
+          <p class="text-primary-700 dark:text-primary-300 mt-2">
+            Skontaktuj się z nami - pomożemy wybrać odpowiedni program!
+          </p>
         </div>
       </div>
     </div>
