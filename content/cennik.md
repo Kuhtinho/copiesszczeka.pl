@@ -1,5 +1,5 @@
 ---
-title: "CENNIK"
+title: "Cennik"
 date: 2024-03-19
 draft: false
 layout: "single.cennik"
