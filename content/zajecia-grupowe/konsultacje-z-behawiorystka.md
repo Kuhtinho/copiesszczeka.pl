@@ -6,7 +6,7 @@ author: Co Pies Szczeka
 categories: ["Zajecia Grupowe"]
 tags: ["Zajecia Indywidualne"]
 description: "Indywidualne konsultacje z behawiorystką pomagające rozwiązać problemy wychowawcze i behawioralne Twojego psa."
-featured_image: images/featured/kon_beh.jpg
+featured_image: images/featured/konsult_beh.jpeg
 ---
 
 ## KONSULTACJE BEHAWIORALNE
