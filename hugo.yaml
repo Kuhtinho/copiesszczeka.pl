@@ -51,7 +51,7 @@ params:
   authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
   moto: "Zrozum psa, zbuduj relację"
-  description: "W „Co Pies Szczeka” pomagamy opiekunom zrozumieć emocje ich psów i uczymy, jak czytać ich subtelne sygnały. Pokazujemy, że pies nie szczeka „bez powodu” – każde zachowanie to informacja, która prowadzi do lepszej relacji, jeśli tylko nauczymy się ją właściwie odczytać.\nZmieniamy codzienne życie psów i ich ludzi w bardziej świadome, spokojne i pełne wzajemnego zaufania."
+  description: "Co Pies Szczeka"
   disable_theme_toggle: true
   disable_stay_uptodate: true
   disable_date_display: true
