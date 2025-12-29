@@ -44,7 +44,7 @@ jobs:
       - name: Build Tailwind CSS
         run: |
           ls -la ./assets/css/
-          npx postcss ./assets/css/main.css -o ./assets/css/style.css --config ./postcss.config.js
+          npx postcss ./assets/css/main.css -o ./assets/css/style.css
 
       - name: Build with Hugo
         env:
