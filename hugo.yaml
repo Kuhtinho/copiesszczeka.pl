@@ -147,11 +147,6 @@ menu:
       url: "#"
       weight: 30
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-
 taxonomies:
   category: Categories
   tag: Tags
