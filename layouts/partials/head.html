@@ -26,10 +26,14 @@
 <script>
     // On page load or when changing themes, best to add inline in `head` to avoid FOUC
     // Force light mode in production (theme toggle is disabled)
-    if (localStorage.getItem('color-theme') === 'dark') {
+    // Only apply dark mode if explicitly set in localStorage, otherwise default to light
+    const theme = localStorage.getItem('color-theme');
+    if (theme === 'dark') {
         document.documentElement.classList.add('dark');
     } else {
-        document.documentElement.classList.remove('dark')
+        document.documentElement.classList.remove('dark');
+        // Ensure light mode is set
+        localStorage.setItem('color-theme', 'light');
     }
 </script>
 {{ $styles := resources.Get "css/style.css" }}
