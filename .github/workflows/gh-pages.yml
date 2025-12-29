@@ -42,9 +42,15 @@ jobs:
         run: npm install
 
       - name: Build Tailwind CSS
-        working-directory: .
         run: |
-          npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --minify
+          echo "Current directory: $(pwd)"
+          echo "Checking files..."
+          ls -la assets/css/ || echo "assets/css directory not found"
+          ls -la tailwind.config.js || echo "tailwind.config.js not found"
+          echo "Building CSS..."
+          npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --minify || exit 1
+          echo "Build completed successfully"
+          ls -lh ./assets/css/style.css
 
       - name: Build with Hugo
         env:
