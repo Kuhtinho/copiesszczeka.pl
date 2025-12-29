@@ -43,8 +43,7 @@ jobs:
 
       - name: Build Tailwind CSS
         run: |
-          mkdir -p ./assets/css
-          npx postcss ./assets/css/main.css -o ./assets/css/style.css --minify
+          npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --minify
 
       - name: Build with Hugo
         env:
