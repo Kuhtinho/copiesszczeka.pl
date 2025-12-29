@@ -1,30 +1,21 @@
-name: GitHub Pages
+name: Build Hugo Site to docs folder
 
 on:
   push:
     branches:
-      - main  # Set a branch to deploy
-  pull_request:
+      - main
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
-      pages: write
-      id-token: write
-    concurrency:
-      group: "pages"
-      cancel-in-progress: false
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -40,14 +31,14 @@ jobs:
           hugo \
             --gc \
             --minify \
+            --destination ./docs \
             --baseURL "${{ github.repository_owner == 'Kuhtinho' && format('https://copiesszczeka.pl') || format('https://{0}.github.io', github.repository_owner) }}"
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/
+          git diff --staged --quiet || git commit -m "Build site to docs folder [skip ci]"
+          git push
 
