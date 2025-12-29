@@ -5,5 +5,3 @@ draft: false
 language: "pl"
 description: "Skontaktuj się z nami i umów spotkanie"
 ---
-
-{{ partial "contact-content.html" . }}

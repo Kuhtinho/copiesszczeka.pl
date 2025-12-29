@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Co Pies Szczeka</title>
-    <link>//localhost:1313/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Co Pies Szczeka</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-pl</language>
-    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Oferta</title>
-      <link>//localhost:1313/categories/zajecia-grupowe/</link>
+      <link>http://localhost:1313/categories/zajecia-grupowe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/zajecia-grupowe/</guid>
+      <guid>http://localhost:1313/categories/zajecia-grupowe/</guid>
       <description></description>
     </item>
   </channel>
