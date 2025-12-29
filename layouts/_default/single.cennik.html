@@ -5,12 +5,10 @@
       {{ .Title }}
     </h1>
   </header>
-  <div class="w-full bg-gray dark:bg-gray-900 pt-16 pb-4">
+  <div class="w-full bg-gray dark:bg-gray-900 pt-16 pb-16">
     <div class="max-w-[1400px] mx-auto px-8 sm:px-12 lg:px-16">
-      <!-- Table-like structure -->
       <div class="overflow-hidden shadow-lg rounded-lg">
-        <!-- Content row - 1 column on mobile, 2 columns on desktop -->
-        <div class="grid grid-cols-1 md:grid-cols-2 bg-white dark:bg-gray-900 min-h-[600px] gap-4 md:gap-2 justify-items-center">
+        <div class="grid grid-cols-1 md:grid-cols-2 bg-white dark:bg-gray-900 gap-4 md:gap-2 justify-items-center">
           <!-- Kurs posłuszeństwa -->
           <div class="p-2 border-b-2 md:border-b-0 md:border-r-2 border-gray-300 dark:border-gray-600 flex flex-col items-center">
             <div class="w-full max-w-md aspect-[2/3] overflow-hidden rounded-lg shadow-md">
@@ -20,10 +18,9 @@
               {{ end }}
             </div>
           </div>
-          
 
           <!-- Zajęcia specjalistyczne -->
-          <div class="p-2 flex flex-col items-center">
+          <div class="p-2 border-b-2 md:border-b-0 flex flex-col items-center">
             <div class="w-full max-w-md aspect-[2/3] overflow-hidden rounded-lg shadow-md">
               {{ with resources.Get "images/featured/cennik_podstawy_fit_nose.jpeg" }}
               {{ $image := (.Resize "1200x webp q95").RelPermalink }}
@@ -32,17 +29,6 @@
             </div>
           </div>
 
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Second row for remaining services -->
-  <div class="w-full bg-gray-50 dark:bg-gray-800 pt-4 pb-4">
-    <div class="max-w-[1400px] mx-auto px-8 sm:px-12 lg:px-16">
-      <div class="overflow-hidden shadow-lg rounded-lg">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 bg-white dark:bg-gray-900 min-h-[500px] gap-4 md:gap-2 justify-items-center">
           <!-- Spacery i socjalizacja -->
           <div class="p-2 border-b-2 md:border-b-0 md:border-r-2 border-gray-300 dark:border-gray-600 flex flex-col items-center">
             <div class="w-full max-w-md aspect-[2/3] overflow-hidden rounded-lg shadow-md">
@@ -52,10 +38,9 @@
               {{ end }}
             </div>
           </div>
-          
 
           <!-- Konsultacje spacerowe -->
-          <div class="p-2 lg:border-r-2 border-gray-300 dark:border-gray-600 flex flex-col items-center">
+          <div class="p-2 border-b-2 md:border-b-0 flex flex-col items-center">
             <div class="w-full max-w-md aspect-[2/3] overflow-hidden rounded-lg shadow-md">
               {{ with resources.Get "images/featured/cennik_konsult_spacer.jpeg" }}
               {{ $image := (.Resize "1200x webp q95").RelPermalink }}
@@ -64,18 +49,8 @@
             </div>
           </div>
 
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Third row for Konsultacje behawioralne -->
-  <div class="w-full bg-gray dark:bg-gray-900 pt-4 pb-16">
-    <div class="max-w-[1400px] mx-auto px-8 sm:px-12 lg:px-16">
-      <div class="overflow-hidden shadow-lg rounded-lg">
-        <div class="grid grid-cols-1 bg-white dark:bg-gray-900 min-h-[500px] gap-2 justify-items-center">
           <!-- Konsultacje behawioralne -->
-          <div class="p-2 flex flex-col items-center">
+          <div class="p-2 md:col-span-2 flex flex-col items-center">
             <div class="w-full max-w-md aspect-[2/3] overflow-hidden rounded-lg shadow-md">
               {{ with resources.Get "images/featured/cennik_konsult_behaw.jpeg" }}
               {{ $image := (.Resize "1200x webp q95").RelPermalink }}
@@ -83,6 +58,7 @@
               {{ end }}
             </div>
           </div>
+
         </div>
       </div>
     </div>
