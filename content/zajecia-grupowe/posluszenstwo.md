@@ -7,6 +7,10 @@ categories: ["Zajecia Grupowe"]
 tags: ["Zajecia Grupowe", "Zajecia Indywidualne"]
 description: "Kurs posłuszeństwa podstawowego i zaawansowanego to kompleksowy program szkolenia psów, który pomoże Ci zbudować silną więź z pupilem."
 featured_image: images/featured/posluszenstwo.jpg
+duration: "7 godzin (I) / 6 godzin (II)"
+trainers: "Nauka i utrwalanie komend"
+approach: "Poprawa koncentracji i samokontroli"
+company: "Współpraca w różnych warunkach"
 ---
 
 ## POSŁUSZEŃSTWO I

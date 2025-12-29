@@ -21,30 +21,38 @@
                             {{ .Params.summary }}
                         </p>
                         <ul class="mt-4 space-y-2 text-sm text-gray-900 dark:text-gray-300">
+                            {{ if .Params.duration }}
                             <li class="flex items-center">
                                 <svg class="w-4 h-4 mr-2 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                                 </svg>
-                                120 minut
+                                {{ .Params.duration }}
                             </li>
+                            {{ end }}
+                            {{ if .Params.trainers }}
                             <li class="flex items-center">
                                 <svg class="w-4 h-4 mr-2 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                                 </svg>
-                                2 wykwalifikowane trenerki
+                                {{ .Params.trainers }}
                             </li>
+                            {{ end }}
+                            {{ if .Params.approach }}
                             <li class="flex items-center">
                                 <svg class="w-4 h-4 mr-2 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                                 </svg>
-                                Indywidualnie dobrane
+                                {{ .Params.approach }}
                             </li>
+                            {{ end }}
+                            {{ if .Params.company }}
                             <li class="flex items-center">
                                 <svg class="w-4 h-4 mr-2 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                                 </svg>
-                                Towarzystwo
+                                {{ .Params.company }}
                             </li>
+                            {{ end }}
                         </ul>
                     </div>
                     <div class="flex pt-6 font-medium text-primary-600 dark:text-primary-100 text-md">

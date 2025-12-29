@@ -7,6 +7,10 @@ categories: ["Zajecia Grupowe"]
 tags: ["Zajecia Indywidualne"]
 description: "Indywidualne konsultacje spacerowe pomagające rozwiązać problemy pojawiające się podczas spacerów z psem."
 featured_image: images/featured/kons_spacer.jpeg
+duration: "1 godzina"
+trainers: "Nauka spokojnych i bezpiecznych spacerów"
+approach: "Praca nad reakcjami na bodźce w terenie"
+company: "Lepsza komunikacja pies–opiekun poza domem"
 ---
 
 ## Konsultacje spacerowe

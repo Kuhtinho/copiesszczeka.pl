@@ -7,6 +7,10 @@ categories: ["Zajecia Grupowe"]
 tags: ["Zajecia Indywidualne"]
 description: "Indywidualne konsultacje z behawiorystką pomagające rozwiązać problemy wychowawcze i behawioralne Twojego psa."
 featured_image: images/featured/konsult_beh.jpeg
+duration: "2 godziny"
+trainers: "Analiza i rozwiązywanie problemów"
+approach: "Indywidualny plan pracy"
+company: "Praktyczne ćwiczenia"
 ---
 
 ## KONSULTACJE BEHAWIORALNE

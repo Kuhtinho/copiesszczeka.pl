@@ -7,6 +7,10 @@ categories: ["Zajecia Grupowe"]
 tags: ["Zajecia Grupowe", "Zajecia Indywidualne"]
 description: "Nosework to fascynująca dyscyplina, która wykorzystuje naturalne zdolności węchowe psa. Idealna dla psów w każdym wieku i o różnym poziomie aktywności."
 featured_image: images/featured/nosework.jpg
+duration: "1 godzina"
+trainers: "Rozwijanie naturalnych zdolności węchowych"
+approach: "Wyciszenie i zmęczenie mentalne psa"
+company: "Zabawa budująca pewność siebie"
 ---
 
 ## NOSEWORK PODSTAWY

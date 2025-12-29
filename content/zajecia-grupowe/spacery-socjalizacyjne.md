@@ -7,6 +7,10 @@ categories: ["Zajecia Grupowe"]
 tags: ["Zajecia Grupowe"]
 description: "Spacery socjalizacyjne to doskonała okazja dla Twojego psa do nauki prawidłowych zachowań w grupie i w różnych sytuacjach."
 featured_image: images/featured/spacer_soc.jpeg
+duration: "1 godzina"
+trainers: "Nauka spokojnego przebywania wśrod innych psów"
+approach: "Bezpieczna socjalizacja"
+company: "Budowanie umiejętności społecznych psa"
 ---
 
 ## SPACERY SOCJALIZACYJNE
