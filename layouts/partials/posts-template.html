@@ -61,7 +61,7 @@
                         {{ range $elem_index, $elem_val := (.GetTerms "tags") }}
                         {{- if gt $elem_index 0 }}, {{ end -}}
                         <a href="{{ .Permalink }}"
-                           class="inline-flex items-center rounded-md bg-gray-300 hover:bg-primary-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 capitalize">{{ .Title }}</a>
+                           class="inline-flex items-center rounded-md bg-gray-300 hover:bg-primary-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 capitalize">{{ replaceRE "^Tags/" "" .Title }}</a>
                         {{- end -}}
                         </span>
                     </div>
