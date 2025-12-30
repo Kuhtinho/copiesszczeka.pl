@@ -3,7 +3,7 @@
     <article>
         <header class="mb-4 bg-primary-600">
             <h1 class="py-8 text-5xl font-black text-center text-secondary-600 capitalize">
-                {{ .Title }}
+                {{ replaceRE "^Tags/" "" .Title }}
             </h1>
         </header>
         {{ with .Content }}
