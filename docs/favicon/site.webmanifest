@@ -1,0 +1,19 @@
+{
+    "name": "Co Pies Szczeka - Szkolenie psów",
+    "short_name": "Co Pies Szczeka",
+    "icons": [
+        {
+            "src": "/images/copiesszczeka.jpg",
+            "sizes": "192x192",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "/images/copiesszczeka.jpg",
+            "sizes": "256x256",
+            "type": "image/jpeg"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}

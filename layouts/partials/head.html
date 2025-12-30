@@ -1,0 +1,50 @@
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+{{- $logo := resources.Get "images/global/copiesszczeka.jpg" -}}
+{{- if $logo -}}
+{{- $favicon16 := $logo.Fill "16x16 png" -}}
+{{- $favicon32 := $logo.Fill "32x32 png" -}}
+{{- $favicon180 := $logo.Fill "180x180 png" -}}
+{{- $faviconForSvg := $logo.Fill "28x28 jpg" -}}
+{{- $logoBase64 := $faviconForSvg.Content | base64Encode -}}
+{{- $svgContent := printf `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"><defs><mask id="circleMask"><rect width="32" height="32" fill="white"/><circle cx="16" cy="16" r="14" fill="black"/></mask><filter id="transparentBlack"><feColorMatrix type="matrix" in="SourceGraphic" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -1 -1 -1 0 1"/></filter></defs><g mask="url(#circleMask)"><image x="2" y="2" width="28" height="28" href="data:image/jpeg;base64,%s" preserveAspectRatio="xMidYMid slice" filter="url(#transparentBlack)"/></g></svg>` $logoBase64 -}}
+<link rel="icon" href="data:image/svg+xml,{{ $svgContent | urlquery }}" type="image/svg+xml">
+<link rel="icon" href="{{ $favicon32.RelPermalink }}" type="image/png" sizes="32x32">
+<link rel="icon" href="{{ $favicon16.RelPermalink }}" type="image/png" sizes="16x16">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ $favicon180.RelPermalink }}">
+{{- else -}}
+<link rel="icon" href="/images/copiesszczeka.jpg" type="image/jpeg" sizes="32x32">
+<link rel="icon" href="/images/copiesszczeka.jpg" type="image/jpeg" sizes="16x16">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/copiesszczeka.jpg">
+{{- end -}}
+<link rel="manifest" href="/favicon/site.webmanifest">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+{{ partial "meta" . }}
+<script>
+    // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+    // Force light mode in production (theme toggle is disabled)
+    // Only apply dark mode if explicitly set in localStorage, otherwise default to light
+    const theme = localStorage.getItem('color-theme');
+    if (theme === 'dark') {
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.classList.remove('dark');
+        // Ensure light mode is set
+        localStorage.setItem('color-theme', 'light');
+    }
+</script>
+{{ $styles := resources.Get "css/style.css" }}
+{{ if $styles }}
+{{ if hugo.IsProduction }}
+{{ $styles := $styles | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" />
+{{ else }}
+{{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" />
+{{ end }}
+{{ else }}
+<link rel="stylesheet" href="/css/style.css" />
+{{ end }}

@@ -1,0 +1,27 @@
+main:
+  - identifier: home
+    name: Co Pies Szczeka
+    url: /
+    weight: 1
+  - identifier: oferta
+    name: Oferta
+    url: /oferta/
+    weight: 2
+  - identifier: zajecia-grupowe
+    name: Zajęcia Grupowe
+    url: /categories/zajecia-grupowe/
+    weight: 3
+    parent: oferta
+  - identifier: zajecia-indywidualne
+    name: Zajęcia Indywidualne
+    url: /categories/zajecia-indywidualne/
+    weight: 4
+    parent: oferta
+  - identifier: about
+    name: O Nas
+    url: /about/
+    weight: 5
+  - identifier: contact
+    name: Kontakt
+    url: /contact/
+    weight: 6 
