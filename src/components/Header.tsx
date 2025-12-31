@@ -16,17 +16,17 @@ export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-border">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-border shadow-sm">
       <div className="container-narrow">
         <nav className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 group">
+          <Link to="/" className="flex items-center gap-2 md:gap-3 group flex-shrink-0">
             <img 
               src={logo} 
               alt="Co Pies Szczeka Logo" 
               className="w-12 h-12 rounded-full object-cover shadow-soft transition-transform duration-300 group-hover:scale-105"
             />
-            <span className="font-display text-xl sm:text-2xl font-semibold text-foreground hidden sm:block">
+            <span className="font-display text-base sm:text-xl md:text-2xl font-semibold text-foreground">
               Co Pies Szczeka
             </span>
           </Link>
@@ -52,18 +52,14 @@ export const Header = () => {
                 </Link>
               )
             ))}
-            <Link to="/umow-spotkanie">
-              <Button variant="hero" size="sm">
-                Umów spotkanie
-              </Button>
-            </Link>
           </div>
 
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 text-foreground"
+            className="md:hidden p-2 text-foreground hover:text-accent transition-colors flex-shrink-0"
             aria-label="Toggle menu"
+            aria-expanded={isOpen}
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -101,7 +97,7 @@ export const Header = () => {
                   </Link>
                 )
               ))}
-              <Link to="/umow-spotkanie" className="mt-2">
+              <Link to="/umow-spotkanie" onClick={() => setIsOpen(false)} className="mt-2">
                 <Button variant="hero" className="w-full">
                   Umów spotkanie
                 </Button>
