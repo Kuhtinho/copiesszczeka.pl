@@ -16,11 +16,11 @@ export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-border shadow-sm">
-      <div className="container-narrow">
-        <nav className="flex items-center justify-between h-20">
+    <header className="fixed top-0 left-0 right-0 w-full z-50 bg-white/95 backdrop-blur-md border-b border-border shadow-sm overflow-hidden">
+      <div className="container-narrow w-full max-w-full">
+        <nav className="flex items-center justify-between h-20 w-full min-w-0">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 md:gap-3 group flex-shrink-0">
+          <Link to="/" className="flex items-center gap-2 md:gap-3 group flex-shrink-0 min-w-0">
             <img 
               src={logo} 
               alt="Co Pies Szczeka Logo" 
@@ -32,7 +32,7 @@ export const Header = () => {
           </Link>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex items-center gap-2">
+          <div className="hidden md:flex items-center gap-2 flex-shrink-0 min-w-0">
             {navItems.map((item) => (
               item.href.startsWith('#') ? (
                 <a
@@ -52,6 +52,11 @@ export const Header = () => {
                 </Link>
               )
             ))}
+            <Link to="/umow-spotkanie">
+              <Button variant="hero" size="sm">
+                Umów spotkanie
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
