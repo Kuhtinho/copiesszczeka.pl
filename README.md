@@ -1,88 +1,73 @@
-<p align="center" style="padding-top:20px">
- <img width="100px" src="images/logo-tailbliss-round.svg" align="center" alt="GitHub Readme Stats" />
- <h1 align="center">TailBliss</h1>
- <p align="center">TailBliss is an opinionated Hugo Starter with Tailwind CSS 3.2 and Alpine.js with light/dark modes.</p>
-</p>
-  <p align="center">
-    <a href="https://github.com/nusserstudios/tailbliss/actions/">
-      <img alt="Tests Passing" src="https://github.com/nusserstudios/tailbliss/actions/workflows/codeql.yml/badge.svg" />
-    </a>
-    <a href="https://github.com/nusserstudios/tailbliss/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/nusserstudios/tailbliss?color=0088ff" />
-    </a>
-    <a href="https://github.com/nusserstudios/tailbliss/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/nusserstudios/tailbliss?color=fc0b03" />
-    </a>
-    <a href="https://github.com/nusserstudios/tailbliss/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/nusserstudios/tailbliss?color=f97316" />
-    </a>
-    <br>
-    <br>
-    <a href="https://gohugo.io/">
-      <img src="https://img.shields.io/badge/Hugo%20-0.105.0%20-gray.svg?colorA=c9177e&colorB=FF4088&style=for-the-badge"/>
-    </a>
-    <a href="https://tailwindcss.com/">
-      <img src="https://img.shields.io/badge/TailwindCSS%20-V3-gray.svg?colorA=0284c7&colorB=38bdf8&style=for-the-badge"/>
-    </a>
-    <a href="https://alpinejs.dev/">
-      <img src="https://img.shields.io/badge/Alpine.js%20-V3-gray.svg?colorA=68a5af&colorB=77c1d2&style=for-the-badge"/>
-    </a>
-  </p>
+# Welcome to your Lovable project
 
-  <p align="center">
-    <a href="https://tailbliss.netlify.app/">View Demo</a>
-    ·
-    <a href="https://github.com/nusserstudios/tailbliss/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/nusserstudios/tailbliss/discussions/categories/feature-request">Request Feature</a>
-    ·
-    <a href="https://github.com/nusserstudios/tailbliss/discussions/categories/general">Ask Question</a>
-  </p>
-</p>
+## Project info
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/nusserstudios/tailbliss/main/images/tailbliss-lighthouse-11-03-22.png" alt="Tailbliss Google Lighthouse Score" style="margin: 25px auto; max-width: 830px" width="100%" height="" />
-</p>
+**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-**Install to VS Code with:**  
-`git clone git@github.com:nusserstudios/tailbliss your-name`
+## How can I edit this code?
 
-##### Install with NPM 
-`npm install`
-##### Install with Yarn
-`yarn`
+There are several ways of editing your application.
 
-**To start developing:**
-##### Develop with NPM 
-`npm run start`
-##### Develop with Yarn
-`yarn start`
+**Use Lovable**
 
-**To generate the site HTML:**
-##### Build with NPM 
-`npm run build`
-##### Build with Yarn
-`yarn build`
+Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-**npm run start** will run two commands parallel:  
-`npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch`
+Changes made via Lovable will be committed automatically to this repo.
 
-Has paginated Categories and Tags. Markdown files will automatically convert images put into `/assets` folder to .webp images. 
+**Use your preferred IDE**
 
-## Image shortcodes for webp as well.
-{{< imgc src="img-name.jpg" alt="Place alt text here." >}}
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-<a href="https://www.buymeacoffee.com/nusserstudios" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-## Form
-To use the form, visit [FormSubmit.Co](https://formsubmit.co/). Locate the contact form in "content/contact.md", and update the form action with the email address you want on this line: **action="https://formsubmit.co/your@email.com" method="POST"**
+Follow these steps:
 
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-## Credits
-4044ever - Original Theme
-https://github.com/4044ever/Hugo-Tailwind-3.0.git
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-Jan Heise - Alpine.js Navbar
-https://github.com/jan-heise/responsive-navbar-with-dropdown
+# Step 3: Install the necessary dependencies.
+npm i
 
-Made for Hacktoberfest, with ❤️ by NusserStudios.
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
+
+**Edit a file directly in GitHub**
+
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
