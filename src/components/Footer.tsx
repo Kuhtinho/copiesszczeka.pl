@@ -64,6 +64,16 @@ export const Footer = () => {
                   Kontakt
                 </Link>
               </li>
+              <li>
+                <Link to="/regulamin" className="text-base sm:text-lg text-primary-foreground/70 hover:text-primary-foreground transition-colors">
+                  Regulamin
+                </Link>
+              </li>
+              <li>
+                <Link to="/polityka-prywatnosci" className="text-base sm:text-lg text-primary-foreground/70 hover:text-primary-foreground transition-colors">
+                  Polityka Prywatności
+                </Link>
+              </li>
             </ul>
           </div>
 

@@ -10,6 +10,8 @@ import Cennik from "./pages/Cennik";
 import NaszZespol from "./pages/NaszZespol";
 import UmowSpotkanie from "./pages/UmowSpotkanie";
 import Kontakt from "./pages/Kontakt";
+import Regulamin from "./pages/Regulamin";
+import PolitykaPrywatnosci from "./pages/PolitykaPrywatnosci";
 import Posluszenstwo from "./pages/oferta/Posluszenstwo";
 import Nosework from "./pages/oferta/Nosework";
 import SpacerySocjalizacyjne from "./pages/oferta/SpacerySocjalizacyjne";
@@ -40,6 +42,8 @@ const App = () => (
           <Route path="/nasz-zespol" element={<NaszZespol />} />
           <Route path="/umow-spotkanie" element={<UmowSpotkanie />} />
           <Route path="/kontakt" element={<Kontakt />} />
+          <Route path="/regulamin" element={<Regulamin />} />
+          <Route path="/polityka-prywatnosci" element={<PolitykaPrywatnosci />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

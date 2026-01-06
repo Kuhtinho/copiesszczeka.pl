@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <!-- Strona główna -->
+  <url>
+    <loc>https://copiesszczeka.pl/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Oferta -->
+  <url>
+    <loc>https://copiesszczeka.pl/oferta</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Oferta - Posłuszeństwo -->
+  <url>
+    <loc>https://copiesszczeka.pl/oferta/posluszenstwo</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Oferta - Nosework -->
+  <url>
+    <loc>https://copiesszczeka.pl/oferta/nosework</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Oferta - Spacery socjalizacyjne -->
+  <url>
+    <loc>https://copiesszczeka.pl/oferta/spacery-socjalizacyjne</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Oferta - Konsultacje spacerowe -->
+  <url>
+    <loc>https://copiesszczeka.pl/oferta/konsultacje-spacerowe</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Oferta - Psi Fitness -->
+  <url>
+    <loc>https://copiesszczeka.pl/oferta/psi-fitness</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Oferta - Konsultacje behawioralne -->
+  <url>
+    <loc>https://copiesszczeka.pl/oferta/konsultacje-behawioralne</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Cennik -->
+  <url>
+    <loc>https://copiesszczeka.pl/cennik</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Nasz Zespół -->
+  <url>
+    <loc>https://copiesszczeka.pl/nasz-zespol</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Umów Spotkanie -->
+  <url>
+    <loc>https://copiesszczeka.pl/umow-spotkanie</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Kontakt -->
+  <url>
+    <loc>https://copiesszczeka.pl/kontakt</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Regulamin -->
+  <url>
+    <loc>https://copiesszczeka.pl/regulamin</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- Polityka Prywatności -->
+  <url>
+    <loc>https://copiesszczeka.pl/polityka-prywatnosci</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+</urlset>
+
