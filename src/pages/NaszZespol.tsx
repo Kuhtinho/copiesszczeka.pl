@@ -15,8 +15,7 @@ const teamMembers = [
     image: olaPhoto,
     bio: "W pracy z psami dużą wagę przykłada do komunikacji i uważnego obserwowania ich sygnałów. Trening traktuje jako narzędzie, które wspiera komfortowe życie psa i jego opiekuna.\n\nOla aktywnie trenuje obedience ze swoimi psami. W codziennej pracy łączy elementy tego sportu ze standardowym posłuszeństwem.\n\nPracuje w sposób holistyczny – skupia się zarówno na emocjach psa, jak i na praktycznych ćwiczeniach. Dzięki temu zespoły pies–człowiek lepiej funkcjonują na co dzień.",
     specialties: [
-      "Psy lękliwe i reaktywne",
-      "Treningi węchowe",
+      "Treningi posłuszeństwa",
       "Konsultacje behawioralne"
     ],
     education: "Certyfikowana trenerka psów, behawiorystka"
@@ -27,9 +26,8 @@ const teamMembers = [
     image: martaPhoto,
     bio: "Trening z psem traktuje jako sposób budowania relacji opartej na zaufaniu i wzajemnym zrozumieniu. W swojej pracy skupia się na emocjach psa oraz przyczynach jego zachowań, wierząc, że to one mają kluczowe znaczenie dla komfortu życia psa i opiekuna.\n\nNosework jest dla niej nie tylko sportem, ale przede wszystkim formą współpracy i wspólnej zabawy psa z człowiekiem. Największą satysfakcję daje jej obserwowanie, jak zespoły uczą się komunikacji, zaufania i radości ze wspólnego działania.\n\nPsi fitness to jej osobista pasja. Traktuje go jako sposób na dbanie o sprawność i komfort życia psa, a jednocześnie na stymulację umysłową i rozwijanie świadomości własnego ciała.",
     specialties: [
-      "Psi fitness",
-      "Rehabilitacja",
-      "Programy dla seniorów"
+      "Nosework",
+      "Psi fitness"
     ],
     education: "Trenerka psów, instruktorka Polskiej Ligi Nosework oraz instruktorka podstaw psiego fitnessu"
   },
