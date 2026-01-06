@@ -31,7 +31,7 @@ const Posluszenstwo = () => {
                 </div>
               </div>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold text-primary-foreground mb-6">
-                Posłuszeństwo - Podstawy i Zaawansowane
+                Posłuszeństwo - Poziom podstawowy i zaawansowany
               </h1>
               <p className="text-lg sm:text-xl text-primary-foreground/80 leading-relaxed">
                 Kurs posłuszeństwa podstawowego i zaawansowanego to kompleksowy program szkolenia psów, który pomoże Ci zbudować silną więź z pupilem.
@@ -55,7 +55,7 @@ const Posluszenstwo = () => {
                 <img
                   src={posluszenstwoImg}
                   alt="Posłuszeństwo"
-                  className="w-full h-[500px] object-contain rounded-2xl shadow-soft"
+                  className="w-full h-[500px] object-contain rounded-2xl"
                 />
               </motion.div>
 

@@ -106,7 +106,7 @@ const NaszZespol = () => {
                       <img
                         src={member.image}
                         alt={member.name}
-                        className="relative organic-shape w-full h-[400px] lg:h-[500px] object-cover object-top shadow-elevated"
+                        className="relative organic-shape w-full h-[400px] lg:h-[500px] object-cover object-top"
                       />
                     </div>
                   </div>

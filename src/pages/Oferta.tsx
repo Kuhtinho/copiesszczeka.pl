@@ -15,7 +15,7 @@ import team2 from "@/assets/team2.webp";
 const services = [
   {
     icon: GraduationCap,
-    title: "Posłuszeństwo - Podstawy i Zaawansowane",
+    title: "Posłuszeństwo - Poziom podstawowy i zaawansowany",
     slug: "posluszenstwo",
     image: posluszenstwoImg,
     description: "Kurs posłuszeństwa podstawowego i zaawansowanego to kompleksowy program szkolenia psów, który pomoże Ci zbudować silną więź z pupilem. Zajęcia skierowane są zarówno dla szczeniąt (po drugim szczepieniu) jak i psów dorosłych.",
@@ -126,8 +126,7 @@ const Oferta = () => {
                 Co oferujemy?
               </h1>
               <p className="text-lg sm:text-xl text-primary-foreground/80 leading-relaxed">
-                Kompleksowe usługi szkoleniowe i behawioralne dla psów i ich opiekunów. 
-                Pracujemy z empatią, zrozumieniem i szacunkiem dla emocji każdego psa.
+                Kompleksowe usługi szkoleniowe i behawioralne dla psów i ich opiekunów.
               </p>
             </motion.div>
           </div>
@@ -154,9 +153,8 @@ const Oferta = () => {
                     <img
                       src={service.image}
                       alt={service.title}
-                      className="w-full h-full object-cover shadow-none"
+                      className="w-full h-full object-cover"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
                     <div className="absolute top-4 left-4">
                       <div className="w-12 h-12 bg-lavender/90 backdrop-blur-sm rounded-xl flex items-center justify-center">
                         <service.icon className="w-6 h-6 text-primary" />
@@ -230,7 +228,7 @@ const Oferta = () => {
                   i ustalenie dalszych kroków.
                 </p>
                 <Link to="/umow-spotkanie">
-                  <Button variant="hero" size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
+                  <Button variant="hero" size="lg" className="bg-orange-500 text-white hover:bg-orange-600">
                     Umów spotkanie
                   </Button>
                 </Link>

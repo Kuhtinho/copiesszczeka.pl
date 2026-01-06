@@ -51,7 +51,7 @@ const SpacerySocjalizacyjne = () => {
                 <img
                   src={spacerSocImg}
                   alt="Spacery socjalizacyjne"
-                  className="w-full h-[500px] object-contain rounded-2xl shadow-soft"
+                  className="w-full h-[500px] object-contain rounded-2xl"
                 />
               </motion.div>
 

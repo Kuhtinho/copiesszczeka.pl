@@ -74,7 +74,7 @@ export const Hero = () => {
               <div className="absolute top-1/2 -right-10 w-20 h-20 bg-primary/20 rounded-full blur-xl animate-float" style={{ animationDelay: "3s" }} />
               
               {/* Main image */}
-              <div className="relative organic-shape overflow-hidden shadow-elevated">
+              <div className="relative organic-shape overflow-hidden">
                 <img
                   src={heroImage}
                   alt="Ola i Marta z psami"

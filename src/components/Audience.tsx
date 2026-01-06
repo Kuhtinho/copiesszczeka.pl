@@ -59,7 +59,7 @@ export const Audience = () => {
               <img
                 src={team2}
                 alt="Psy w naturze"
-                className="relative organic-shape w-full h-[400px] lg:h-[500px] object-cover shadow-elevated"
+                className="relative organic-shape w-full h-[400px] lg:h-[500px] object-cover"
               />
             </div>
           </motion.div>

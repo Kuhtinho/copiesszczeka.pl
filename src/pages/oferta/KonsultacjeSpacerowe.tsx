@@ -51,7 +51,7 @@ const KonsultacjeSpacerowe = () => {
                 <img
                   src={konsSpacerImg}
                   alt="Konsultacje spacerowe"
-                  className="w-full h-[500px] object-contain rounded-2xl shadow-soft"
+                  className="w-full h-[500px] object-contain rounded-2xl"
                 />
               </motion.div>
 

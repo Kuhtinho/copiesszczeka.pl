@@ -48,7 +48,7 @@ export const Services = () => {
               <img
                 src={team1}
                 alt="Trenerki z psami"
-                className="relative organic-shape-alt w-full h-[400px] lg:h-[500px] object-cover shadow-elevated"
+                className="relative organic-shape-alt w-full h-[400px] lg:h-[500px] object-cover"
               />
             </div>
           </motion.div>
