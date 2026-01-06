@@ -14,7 +14,7 @@ const appointmentTypes = [
   {
     icon: GraduationCap,
     title: "Zajęcia szkoleniowe",
-    description: "Zapisz się na zajęcia szkoleniowe z posłuszeństwa.",
+    description: "Zapisz się na zajęcia szkoleniowe z posłuszeństwa, noseworku lub fitnessu.",
     formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfQ_FJaNwecjUIJHcMySICQXKWMAApKBShNeMLJ_kfXKiegtA/viewform"
   },
   {

@@ -66,10 +66,7 @@ const SpacerySocjalizacyjne = () => {
                   SPACERY SOCJALIZACYJNE
                 </h2>
                 <p className="text-base sm:text-lg text-muted-foreground mb-6 leading-relaxed">
-                  Spacery socjalizacyjne są skierowane do opiekunów, którzy chcą lepiej odczytywać sygnały wysyłane przez psy. W trakcie zajęć będziemy rozszyfrowywać psią komunikację, dzięki czemu dowiesz się w jaki sposób rozmawiać ze swoim psem oraz zminimalizować prawdopodobieństwo pojawienia się frustracji.
-                </p>
-                <p className="text-base sm:text-lg text-muted-foreground mb-6 leading-relaxed">
-                  Dzięki zdobytej i zastosowanej wiedzy, Wasze spacery staną się przyjemniejsze dla obu stron. Zrozumiesz także w jaki sposób wspierać swojego psa w trudnych momentach.
+                  Spacery socjalizacyjne są skierowane do opiekunów, którzy chcą lepiej odczytywać sygnały wysyłane przez psy. W trakcie zajęć będziemy rozszyfrowywać psią komunikację. Wasze spacery staną się przyjemniejsze dla obu stron. Zrozumiesz także w jaki sposób wspierać swojego psa w trudnych momentach.
                 </p>
 
                 <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground mb-4 mt-8">
@@ -80,9 +77,10 @@ const SpacerySocjalizacyjne = () => {
                     "chcą w bezpiecznych warunkach poszerzyć grono psich znajomych",
                     "potrzebują podszkolić swoje umiejętności komunikacyjne",
                     "mają problemy w kontaktach z innymi psami",
-                    "chcą lepiej rozumieć się ze swoim człowiekiem",
                     "nie mają zbyt wielu (dobrych) doświadczeń w kontaktach z innymi psami (np. szczeniaki, psy schroniskowe)",
-                    "emocjonalnie reagują na widok innych psów"
+                    "emocjonalnie reagują na widok innych psów",
+                    "nie odpuszczają spotkania z innymi psami",
+                    "ciągną, szczekają lub kładą się na widok innych psów"
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-3">
                       <CheckCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />

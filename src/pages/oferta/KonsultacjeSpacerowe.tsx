@@ -66,9 +66,6 @@ const KonsultacjeSpacerowe = () => {
                   Konsultacje spacerowe
                 </h2>
                 <p className="text-base sm:text-lg text-muted-foreground mb-6 leading-relaxed">
-                  Konsultacje spacerowe są skierowane do opiekunów, którzy chcą lepiej odczytywać sygnały wysyłane przez psy. W trakcie zajęć będziemy rozszyfrowywać psią komunikację, dzięki czemu dowiesz się, w jaki sposób rozmawiać ze swoim psem oraz jak zminimalizować prawdopodobieństwo pojawienia się frustracji.
-                </p>
-                <p className="text-base sm:text-lg text-muted-foreground mb-6 leading-relaxed">
                   Dzięki zdobytej i zastosowanej wiedzy, Wasze codzienne spacery staną się przyjemniejsze i bardziej zrozumiałe dla obu stron. Nauczysz się także, jak wspierać swojego psa w trudnych momentach.
                 </p>
 
@@ -77,8 +74,6 @@ const KonsultacjeSpacerowe = () => {
                 </h3>
                 <ul className="space-y-3 mb-6">
                   {[
-                    "chcą w bezpiecznych warunkach poszerzyć grono psich znajomych",
-                    "potrzebują podszkolić swoje umiejętności komunikacyjne",
                     "mają problemy w kontaktach z innymi psami",
                     "chcą lepiej rozumieć się ze swoim człowiekiem",
                     "nie mają zbyt wielu (dobrych) doświadczeń w kontaktach z innymi psami (np. szczeniaki, psy schroniskowe)",

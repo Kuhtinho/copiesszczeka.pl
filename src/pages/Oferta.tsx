@@ -23,8 +23,8 @@ const services = [
       "Posłuszeństwo I: 7 godzin zajęć - podstawy",
       "Posłuszeństwo II: 6 godzin zajęć - zaawansowane",
       "Małe grupy (max 4 zespoły)",
-      "Nauka komend: siad, leżeć, przywołanie, chodzenie przy nodze",
-      "Podsumowanie i praca domowa po każdych zajęciach",
+      "nauka przydatnych życiowo komend",
+      "Krótkie podsumowanie po każdych zajęciach",
       "Dyplom ukończenia zajęć"
     ]
   },
@@ -76,7 +76,7 @@ const services = [
     title: "Psi fitness",
     slug: "psi-fitness",
     image: fitnessImg,
-    description: "Psi Fitness to nowoczesne zajęcia ruchowe dla psów, które pomagają poprawić ich sprawność fizyczną, koordynację oraz ogólną kondycję. Zajęcia są dostosowane do wieku, możliwości i potrzeb każdego psa.",
+    description: "Psi Fitness to zajęcia ruchowe dla psów, które pomagają poprawić ich sprawność fizyczną, koordynację oraz ogólną kondycję. Zajęcia są dostosowane do wieku, możliwości i potrzeb każdego psa.",
     features: [
       "Bezpieczne korzystanie ze sprzętu fitness",
       "Wzmacnianie mięśni posturalnych",
@@ -96,7 +96,6 @@ const services = [
       "Szczegółowa analiza zachowania psa",
       "Indywidualny plan pracy",
       "Praktyczne ćwiczenia",
-      "Pisemne podsumowanie i plan działania",
       "Wsparcie emocjonalne psa",
       "Edukacja opiekunów (1,5–2 godziny konsultacji)"
     ]

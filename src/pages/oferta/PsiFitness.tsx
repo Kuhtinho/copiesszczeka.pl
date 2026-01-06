@@ -32,7 +32,7 @@ const PsiFitness = () => {
                 Psi fitness
               </h1>
               <p className="text-lg sm:text-xl text-primary-foreground/80 leading-relaxed">
-                Psi Fitness to nowoczesne zajęcia ruchowe dla psów, które pomagają poprawić ich sprawność fizyczną, koordynację oraz ogólną kondycję. Zajęcia są dostosowane do wieku, możliwości i potrzeb każdego psa.
+                Psi Fitness to zajęcia ruchowe dla psów, które pomagają poprawić ich sprawność fizyczną, koordynację oraz ogólną kondycję. Zajęcia są dostosowane do wieku, możliwości i potrzeb każdego psa.
               </p>
             </motion.div>
           </div>
@@ -66,7 +66,7 @@ const PsiFitness = () => {
                   PSI FITNESS
                 </h2>
                 <p className="text-base sm:text-lg text-muted-foreground mb-6 leading-relaxed">
-                  Psi Fitness to nowoczesne zajęcia ruchowe dla psów, które pomagają poprawić ich sprawność fizyczną, koordynację oraz ogólną kondycję. Zajęcia są dostosowane do wieku, możliwości i potrzeb każdego psa.
+                  Psi Fitness to zajęcia ruchowe dla psów, które pomagają poprawić ich sprawność fizyczną, koordynację oraz ogólną kondycję. Zajęcia są dostosowane do wieku, możliwości i potrzeb każdego psa.
                 </p>
 
                 <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground mb-4 mt-8">

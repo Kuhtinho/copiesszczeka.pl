@@ -114,7 +114,7 @@ const Posluszenstwo = () => {
                     "nauczysz swojego psa podstaw posłuszeństwa",
                     "rozwijecie relację",
                     "jako opiekun zrozumiesz podstawy psiej komunikacji",
-                    "po każdych zajęciach otrzymacie podsumowanie oraz pracę domową"
+                    "po każdych zajęciach otrzymasz krótkie podsumowanie"
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-3">
                       <CheckCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
@@ -153,6 +153,7 @@ const Posluszenstwo = () => {
                 </h3>
                 <ul className="space-y-3 mb-6">
                   {[
+                    "kontynuowanie pracy nad nauką z podstaw posłuszeństwa",
                     "pracę na odłożonej nagrodzie",
                     "odesłanie na wyznaczone miejsce",
                     "omijanie przedmiotów",
@@ -174,7 +175,7 @@ const Posluszenstwo = () => {
                     "nauczysz swojego psa dodatkowych umiejętności w zakresie posłuszeństwa",
                     "pogłębisz relację z psem",
                     "jako opiekun poznasz procesy pracy nad nowymi ćwiczeniami",
-                    "po każdych zajęciach otrzymacie podsumowanie oraz pracę domową"
+                    "Krótkie podsumowanie po każdych zajęciach"
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-3">
                       <CheckCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />

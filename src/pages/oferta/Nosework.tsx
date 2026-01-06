@@ -74,7 +74,7 @@ const Nosework = () => {
                   Nosework to sport polegający na detekcji trzech zapachów. Psio ludzkie zespoły wspólnie szukają próbek. Głównym detektywem jest psi nos. Jest to forma spełnienia psich potrzeb związanych z rasą, a także potrzeby eksploracji oraz potrzeb socjalnych.
                 </p>
                 <p className="text-base sm:text-lg text-muted-foreground mb-6 leading-relaxed">
-                  Zajęcia skierowane są zarówno dla szczeniąt (po 5 miesiącu życia) jak i psów dorosłych. Kursy prowadzone są w grupach – maksymalnie 3 zespoły uczestników. Kurs składa się z 5 godzin zajęć, na ogrodzonym placu, na Wawrze.
+                  Zajęcia skierowane są zarówno dla szczeniąt (po 5 miesiącu życia) jak i psów dorosłych. Kursy prowadzone są w grupach – maksymalnie 3 zespoły uczestników. Kurs składa się z 5 godzin zajęć.
                 </p>
 
                 <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground mb-4 mt-8">
@@ -85,7 +85,7 @@ const Nosework = () => {
                     "wprowadzenie rutyny startowej",
                     "detekcja zapachów: kory cynamonu, goździka i suszonej skórki pomarańczy",
                     "nauka oznaczania zapachu",
-                    "spowalniamy proces starzenia stymulując także psi umysł",
+                    "spowalniamy proces starzenia stymulując psi umysł",
                     "budowanie motywacji i metodycznej pracy"
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-3">
@@ -103,7 +103,7 @@ const Nosework = () => {
                     "nauczysz swojego psa nowych umiejętności",
                     "pogłębisz relację z psem",
                     "stymulujemy psie nosy",
-                    "spowalniamy proces starzenia stymulując także psi umysł",
+                    "spowalniamy proces starzenia stymulując psi umysł",
                     "otrzymacie instrukcje do indywidualnej pracy w domowym zaciszu"
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-3">
