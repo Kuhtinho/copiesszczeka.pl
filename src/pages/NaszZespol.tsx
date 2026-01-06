@@ -47,7 +47,7 @@ const values = [
   {
     icon: Award,
     title: "Doświadczenie",
-    description: "Latami zdobywamy wiedzę i doskonalimy nasze umiejętności."
+    description: "Ciągle zdobywamy wiedzę i doskonalimy nasze umiejętności."
   },
   {
     icon: BookOpen,
@@ -216,7 +216,7 @@ const NaszZespol = () => {
                 <Button 
                   variant="hero" 
                   size="lg" 
-                  className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
+                  className="bg-orange-500 text-white hover:bg-orange-600"
                 >
                   Umów spotkanie
                 </Button>
