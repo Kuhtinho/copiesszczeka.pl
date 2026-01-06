@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo.jpg";
+import logo from "@/assets/logo.png";
 
 const navItems = [
   { label: "Nasz Zespół", href: "/nasz-zespol" },
