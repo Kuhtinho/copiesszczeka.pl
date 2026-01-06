@@ -38,7 +38,7 @@ const pricingPlans = [
   },
   {
     icon: Users,
-    title: "Treningi grupowe",
+    title: "Treningi grupowe z posłuszeństwa",
     price: "100",
     period: "zł / sesja",
     description: "Treningi w małych grupach (max 4 psy)",

@@ -1,17 +1,22 @@
 import { motion } from "framer-motion";
-import { Users, MapPin, Dumbbell, Heart } from "lucide-react";
+import { Users, MapPin, Dumbbell, Heart, Footprints } from "lucide-react";
 import team1 from "@/assets/team1.webp";
 
 const services = [
   {
     icon: Users,
-    title: "Treningi indywidualne i grupowe",
+    title: "Treningi indywidualne z posłuszeństwa i grupowe z posłuszeństwa",
     description: "Nauczymy was przydatnych zachowań dostosowanych do potrzeb waszego psa.",
   },
   {
     icon: MapPin,
+    title: "Nosework",
+    description: "Treningi węchowe, które budują pewność siebie twojego psa.",
+  },
+  {
+    icon: Footprints,
     title: "Spacery socjalizacyjne",
-    description: "Treningi węchowe (nosework), które budują pewność siebie i twojego psa.",
+    description: "Poprawimy jakość waszych wspólnych spacerów.",
   },
   {
     icon: Dumbbell,
