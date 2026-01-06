@@ -9,6 +9,20 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 // Pojedyncze spotkania
 const singleSessions = [
   {
+    icon: Dumbbell,
+    title: "Psi Fitness / Nosework / Posłuszeństwo",
+    price: "od 140",
+    period: "zł / sesja",
+    description: "Zajęcia indywidualne - fitness, nosework oraz posłuszeństwo",
+    features: [
+      "60 minut zajęć",
+      "Indywidualny program",
+      "Ćwiczenia dostosowane do potrzeb i możliwości twojego psa",
+      "Krótka notatka z zajęć"
+    ],
+    popular: true
+  },
+  {
     icon: MessageCircle,
     title: "Konsultacje spacerowe",
     price: "150",
@@ -23,20 +37,6 @@ const singleSessions = [
     popular: false
   },
   {
-    icon: Users,
-    title: "Treningi grupowe z posłuszeństwa",
-    price: "100",
-    period: "zł / sesja",
-    description: "Treningi w małych grupach (max 4 psy)",
-    features: [
-      "60 minut pracy",
-      "Małe grupy",
-      "Socjalizacja z innymi psami",
-      "Materiały edukacyjne"
-    ],
-    popular: true
-  },
-  {
     icon: MapPin,
     title: "Spacery socjalizacyjne",
     price: "120",
@@ -47,20 +47,6 @@ const singleSessions = [
       "Grupa 2-3 psy",
       "Socjalizacja w kontrolowanych warunkach",
       "Praca z emocjami"
-    ],
-    popular: false
-  },
-  {
-    icon: Dumbbell,
-    title: "Psi fitness / Nosework",
-    price: "od 140",
-    period: "zł / sesja",
-    description: "Zajęcia indywidualne - fitness i nosework",
-    features: [
-      "60 minut zajęć",
-      "Indywidualny program",
-      "Ćwiczenia dostosowane do kondycji",
-      "Wsparcie dla seniorów"
     ],
     popular: false
   },
@@ -86,21 +72,20 @@ const packages = [
   {
     icon: GraduationCap,
     title: "Posłuszeństwo",
-    price: "800",
+    price: "915",
     period: "zł / cykl",
-    description: "Cykl zajęć indywidualnych - 7 spotkań",
+    description: "Cykl zajęć indywidualnych - 8 spotkań",
     features: [
-      "7 spotkań indywidualnych",
+      "8 spotkań indywidualnych",
       "60 minut każde spotkanie",
       "Indywidualne podejście",
-      "Materiały edukacyjne",
-      "Wsparcie między sesjami"
+      "Krótka notatka z zajęć"
     ],
     popular: false
   },
   {
     icon: MessageCircle,
-    title: "Pakiet konsultacje spacerowe",
+    title: "Konsultacje spacerowe",
     price: "400",
     period: "zł / 3 spotkania",
     description: "Pakiet 3 spotkań konsultacji spacerowych",
@@ -114,7 +99,7 @@ const packages = [
   },
   {
     icon: MapPin,
-    title: "Pakiet spacery socjalizacyjne",
+    title: "Spacery socjalizacyjne",
     price: "300",
     period: "zł / 3 spotkania",
     description: "Pakiet 3 spotkań spacerów socjalizacyjnych",
@@ -128,7 +113,7 @@ const packages = [
   },
   {
     icon: Dumbbell,
-    title: "Pakiet fitness / nosework",
+    title: "Fitness / nosework",
     price: "od 750",
     period: "zł / 6 spotkań",
     description: "Pakiet 6 spotkań fitness lub nosework",
@@ -190,7 +175,7 @@ const Cennik = () => {
               </p>
             </motion.div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-2 gap-6">
               {singleSessions.map((session, index) => (
                 <motion.div
                   key={session.title}
@@ -329,7 +314,7 @@ const Cennik = () => {
               </h3>
               <p className="text-base sm:text-lg text-muted-foreground mb-6 leading-relaxed">
                 Skontaktuj się z nami, aby omówić szczegóły i znaleźć najlepsze rozwiązanie 
-                dla Twojego psa. Pierwsza konsultacja to czas na poznanie się i ustalenie 
+                dla Twojego psa. Pierwsze spotkanie to czas na poznanie się i ustalenie 
                 indywidualnego planu działania.
               </p>
               <Link to="/kontakt">

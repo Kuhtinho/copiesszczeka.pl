@@ -139,7 +139,7 @@ const Nosework = () => {
                 Skontaktuj się z nami, aby omówić potrzeby Twojego psa i znaleźć najlepsze rozwiązanie.
               </p>
               <Link to="/umow-spotkanie">
-                <Button variant="hero" size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
+                <Button variant="hero" size="lg" className="bg-orange-500 text-white hover:bg-orange-600">
                   Umów spotkanie
                 </Button>
               </Link>

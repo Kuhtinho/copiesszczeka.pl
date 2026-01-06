@@ -175,3 +175,4 @@ const Regulamin = () => {
 
 export default Regulamin;
 
+

@@ -1,17 +1,22 @@
 import { motion } from "framer-motion";
-import { Users, MapPin, Dumbbell, Heart, Footprints } from "lucide-react";
+import { Users, MapPin, Dumbbell, Heart, Footprints, MessageCircle } from "lucide-react";
 import team1 from "@/assets/team1.webp";
 
 const services = [
   {
     icon: Users,
-    title: "Treningi indywidualne z posłuszeństwa i grupowe z posłuszeństwa",
+    title: "Treningi z posłuszeństwa",
     description: "Nauczymy was przydatnych zachowań dostosowanych do potrzeb waszego psa.",
   },
   {
     icon: MapPin,
     title: "Nosework",
     description: "Treningi węchowe, które budują pewność siebie twojego psa.",
+  },
+  {
+    icon: MessageCircle,
+    title: "Konsultacje spacerowe",
+    description: "Indywidualne spotkania pomagające rozwiązać problemy pojawiające się podczas spacerów.",
   },
   {
     icon: Footprints,

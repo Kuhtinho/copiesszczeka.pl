@@ -32,7 +32,7 @@ const SpacerySocjalizacyjne = () => {
                 Spacery socjalizacyjne
               </h1>
               <p className="text-lg sm:text-xl text-primary-foreground/80 leading-relaxed">
-                Spacery socjalizacyjne są skierowane do opiekunów, którzy chcą lepiej odczytywać sygnały wysyłane przez psy. W trakcie zajęć będziemy rozszyfrowywać psią komunikację.
+                Spacery socjalizacyjne są skierowane do opiekunów, którzy chcą aby ich wspólne spacery z psem stały się przyjemnością.
               </p>
             </motion.div>
           </div>
@@ -66,7 +66,7 @@ const SpacerySocjalizacyjne = () => {
                   SPACERY SOCJALIZACYJNE
                 </h2>
                 <p className="text-base sm:text-lg text-muted-foreground mb-6 leading-relaxed">
-                  Spacery socjalizacyjne są skierowane do opiekunów, którzy chcą lepiej odczytywać sygnały wysyłane przez psy. W trakcie zajęć będziemy rozszyfrowywać psią komunikację. Wasze spacery staną się przyjemniejsze dla obu stron. Zrozumiesz także w jaki sposób wspierać swojego psa w trudnych momentach.
+                  Spacery socjalizacyjne są skierowane do opiekunów, którzy chcą aby ich wspólne spacery z psem stały się przyjemnością. Zrozumiesz psią komunikację oraz dowiesz się co robić gdy pies ciągnie na smyczy lub szczeka.
                 </p>
 
                 <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground mb-4 mt-8">
@@ -123,7 +123,7 @@ const SpacerySocjalizacyjne = () => {
                 Skontaktuj się z nami, aby omówić potrzeby Twojego psa i znaleźć najlepsze rozwiązanie.
               </p>
               <Link to="/umow-spotkanie">
-                <Button variant="hero" size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
+                <Button variant="hero" size="lg" className="bg-orange-500 text-white hover:bg-orange-600">
                   Umów spotkanie
                 </Button>
               </Link>

@@ -18,7 +18,7 @@ const teamMembers = [
       "Treningi posłuszeństwa",
       "Konsultacje behawioralne"
     ],
-    education: "Certyfikowana trenerka psów, behawiorystka"
+    education: ""
   },
   {
     name: "Marta Kamola",
@@ -29,7 +29,7 @@ const teamMembers = [
       "Nosework",
       "Psi fitness"
     ],
-    education: "Trenerka psów, instruktorka Polskiej Ligi Nosework oraz instruktorka podstaw psiego fitnessu"
+    education: ""
   },
 ];
 

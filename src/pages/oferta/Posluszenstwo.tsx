@@ -34,7 +34,7 @@ const Posluszenstwo = () => {
                 Posłuszeństwo - Poziom podstawowy i zaawansowany
               </h1>
               <p className="text-lg sm:text-xl text-primary-foreground/80 leading-relaxed">
-                Kurs posłuszeństwa podstawowego i zaawansowanego to kompleksowy program szkolenia psów, który pomoże Ci zbudować silną więź z pupilem.
+                Kurs posłuszeństwa podstawowego i zaawansowanego to kompleksowy program szkolenia psów, dzięki któremu Twój pies nauczy się uważniej słuchać opiekuna, reagować na polecenia i współpracować na co dzień, co przełoży się na spokojniejsze i bardziej harmonijne relacje.
               </p>
             </motion.div>
           </div>
@@ -175,7 +175,7 @@ const Posluszenstwo = () => {
                     "nauczysz swojego psa dodatkowych umiejętności w zakresie posłuszeństwa",
                     "pogłębisz relację z psem",
                     "jako opiekun poznasz procesy pracy nad nowymi ćwiczeniami",
-                    "Krótkie podsumowanie po każdych zajęciach"
+                    "krótkie podsumowanie po każdych zajęciach"
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-3">
                       <CheckCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
@@ -210,7 +210,7 @@ const Posluszenstwo = () => {
                 Skontaktuj się z nami, aby omówić potrzeby Twojego psa i znaleźć najlepsze rozwiązanie.
               </p>
               <Link to="/umow-spotkanie">
-                <Button variant="hero" size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
+                <Button variant="hero" size="lg" className="bg-orange-500 text-white hover:bg-orange-600">
                   Umów spotkanie
                 </Button>
               </Link>

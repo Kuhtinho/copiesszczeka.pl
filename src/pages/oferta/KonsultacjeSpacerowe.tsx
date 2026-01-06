@@ -32,7 +32,7 @@ const KonsultacjeSpacerowe = () => {
                 Konsultacje spacerowe
               </h1>
               <p className="text-lg sm:text-xl text-primary-foreground/80 leading-relaxed">
-                Indywidualne konsultacje spacerowe pomagające rozwiązać problemy pojawiające się podczas spacerów z psem. Nauczysz się, jak wspierać swojego psa w trudnych momentach.
+                Indywidualne spotkania pomagające rozwiązać problemy pojawiające się podczas spacerów. Nauczysz się, jak wspierać swojego psa w trudnych momentach.
               </p>
             </motion.div>
           </div>
@@ -117,7 +117,7 @@ const KonsultacjeSpacerowe = () => {
                 Skontaktuj się z nami, aby omówić potrzeby Twojego psa i znaleźć najlepsze rozwiązanie.
               </p>
               <Link to="/umow-spotkanie">
-                <Button variant="hero" size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
+                <Button variant="hero" size="lg" className="bg-orange-500 text-white hover:bg-orange-600">
                   Umów spotkanie
                 </Button>
               </Link>

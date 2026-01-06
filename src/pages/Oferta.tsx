@@ -18,14 +18,13 @@ const services = [
     title: "Posłuszeństwo - Poziom podstawowy i zaawansowany",
     slug: "posluszenstwo",
     image: posluszenstwoImg,
-    description: "Kurs posłuszeństwa podstawowego i zaawansowanego to kompleksowy program szkolenia psów, który pomoże Ci zbudować silną więź z pupilem. Zajęcia skierowane są zarówno dla szczeniąt (po drugim szczepieniu) jak i psów dorosłych.",
+    description: "Kurs posłuszeństwa podstawowego i zaawansowanego to kompleksowy program szkolenia psów, dzięki któremu Twój pies nauczy się uważniej słuchać opiekuna, reagować na polecenia i współpracować na co dzień, co przełoży się na spokojniejsze i bardziej harmonijne relacje. Zajęcia skierowane są zarówno dla szczeniąt (po drugim szczepieniu) jak i psów dorosłych.",
     features: [
-      "Posłuszeństwo I: 7 godzin zajęć - podstawy",
-      "Posłuszeństwo II: 6 godzin zajęć - zaawansowane",
+      "Posłuszeństwo I: 7 godzin",
+      "Posłuszeństwo II: 6 godzin",
       "Małe grupy (max 4 zespoły)",
-      "nauka przydatnych życiowo komend",
-      "Krótkie podsumowanie po każdych zajęciach",
-      "Dyplom ukończenia zajęć"
+      "Nauka przydatnych życiowo komend",
+      "krótkie podsumowanie po każdych zajęciach"
     ]
   },
   {
@@ -48,7 +47,7 @@ const services = [
     title: "Spacery socjalizacyjne",
     slug: "spacery-socjalizacyjne",
     image: spacerSocImg,
-    description: "Spacery socjalizacyjne są skierowane do opiekunów, którzy chcą lepiej odczytywać sygnały wysyłane przez psy. W trakcie zajęć będziemy rozszyfrowywać psią komunikację.",
+    description: "Spacery socjalizacyjne są skierowane do opiekunów, którzy chcą aby ich wspólne spacery z psem stały się przyjemnością.",
     features: [
       "Socjalizacja w kontrolowanych warunkach",
       "Budowanie umiejętności społecznych psa",
@@ -62,7 +61,7 @@ const services = [
     title: "Konsultacje spacerowe",
     slug: "konsultacje-spacerowe",
     image: konsSpacerImg,
-    description: "Indywidualne konsultacje spacerowe pomagające rozwiązać problemy pojawiające się podczas spacerów z psem. Nauczysz się, jak wspierać swojego psa w trudnych momentach.",
+    description: "Indywidualne spotkania pomagające rozwiązać problemy pojawiające się podczas spacerów. Nauczysz się, jak wspierać swojego psa w trudnych momentach.",
     features: [
       "Nauka spokojnych i bezpiecznych spacerów",
       "Praca nad reakcjami na bodźce w terenie",
@@ -82,8 +81,7 @@ const services = [
       "Wzmacnianie mięśni posturalnych",
       "Poprawa równowagi i koordynacji",
       "Budowanie pewności siebie psa",
-      "Wsparcie dla szczeniąt, dorosłych i seniorów",
-      "Rehabilitacja po kontuzjach (po konsultacji z weterynarzem)"
+      "Wsparcie dla szczeniąt, dorosłych i seniorów"
     ]
   },
   {
@@ -97,7 +95,8 @@ const services = [
       "Indywidualny plan pracy",
       "Praktyczne ćwiczenia",
       "Wsparcie emocjonalne psa",
-      "Edukacja opiekunów (1,5–2 godziny konsultacji)"
+      "Edukacja opiekunów (1,5–2 godziny konsultacji)",
+      "Nauka nowych zachowań"
     ]
   },
 ];
@@ -223,7 +222,7 @@ const Oferta = () => {
                 </h2>
                 <p className="text-lg sm:text-xl text-primary-foreground/80 mb-8 leading-relaxed">
                   Skontaktuj się z nami, aby omówić potrzeby Twojego psa i znaleźć 
-                  najlepsze rozwiązanie. Pierwsza konsultacja to czas na poznanie się 
+                  najlepsze rozwiązanie. Pierwsze spotkanie to czas na poznanie się 
                   i ustalenie dalszych kroków.
                 </p>
                 <Link to="/umow-spotkanie">
