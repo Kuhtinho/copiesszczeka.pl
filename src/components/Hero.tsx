@@ -38,8 +38,7 @@ export const Hero = () => {
               transition={{ delay: 0.4, duration: 0.6 }}
               className="text-lg sm:text-xl text-muted-foreground leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0"
             >
-              Pomagamy opiekunom zrozumieć emocje ich psów i uczymy, jak czytać ich subtelne sygnały. 
-              Każde zachowanie to informacja, która prowadzi do lepszej relacji.
+              Pomagamy opiekunom zrozumieć emocje ich psów i uczymy, jak czytać ich subtelne sygnały.
             </motion.p>
 
             <motion.div
