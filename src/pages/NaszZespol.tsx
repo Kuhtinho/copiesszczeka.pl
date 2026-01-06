@@ -11,9 +11,9 @@ import martaPhoto from "@/assets/marta.jpg";
 const teamMembers = [
   {
     name: "Ola",
-    role: "Trenerka i behawiorystka",
+    role: "Trenerka i behawiorystka psów.",
     image: olaPhoto,
-    bio: "Pasjonatka psiej psychologii i emocji. Specjalizuje się w pracy z psami lękliwymi i reaktywnymi. Wierzy, że każdy pies zasługuje na zrozumienie i empatię.",
+    bio: "W pracy z psami dużą wagę przykłada do komunikacji i uważnego obserwowania ich sygnałów. Trening traktuje jako narzędzie, które wspiera komfortowe życie psa i jego opiekuna.\n\nOla aktywnie trenuje obedience ze swoimi psami. W codziennej pracy łączy elementy tego sportu ze standardowym posłuszeństwem.\n\nPracuje w sposób holistyczny – skupia się zarówno na emocjach psa, jak i na praktycznych ćwiczeniach. Dzięki temu zespoły pies–człowiek lepiej funkcjonują na co dzień.",
     specialties: [
       "Psy lękliwe i reaktywne",
       "Treningi węchowe",
@@ -22,16 +22,16 @@ const teamMembers = [
     education: "Certyfikowana trenerka psów, behawiorystka"
   },
   {
-    name: "Marta",
-    role: "Trenerka i specjalistka od fitnessu",
+    name: "Marta Kamola",
+    role: "Trenerka psów, instruktorka Polskiej Ligi Nosework oraz instruktorka podstaw psiego fitnessu.",
     image: martaPhoto,
-    bio: "Ekspertka od psiego fitnessu i rehabilitacji. Pomaga psom w każdym wieku rozwijać się fizycznie i mentalnie. Tworzy indywidualne programy treningowe.",
+    bio: "Trening z psem traktuje jako sposób budowania relacji opartej na zaufaniu i wzajemnym zrozumieniu. W swojej pracy skupia się na emocjach psa oraz przyczynach jego zachowań, wierząc, że to one mają kluczowe znaczenie dla komfortu życia psa i opiekuna.\n\nNosework jest dla niej nie tylko sportem, ale przede wszystkim formą współpracy i wspólnej zabawy psa z człowiekiem. Największą satysfakcję daje jej obserwowanie, jak zespoły uczą się komunikacji, zaufania i radości ze wspólnego działania.\n\nPsi fitness to jej osobista pasja. Traktuje go jako sposób na dbanie o sprawność i komfort życia psa, a jednocześnie na stymulację umysłową i rozwijanie świadomości własnego ciała.",
     specialties: [
       "Psi fitness",
       "Rehabilitacja",
       "Programy dla seniorów"
     ],
-    education: "Certyfikowana trenerka psów, specjalistka od psiego fitnessu"
+    education: "Trenerka psów, instruktorka Polskiej Ligi Nosework oraz instruktorka podstaw psiego fitnessu"
   },
 ];
 
@@ -120,7 +120,7 @@ const NaszZespol = () => {
                     <p className="text-lg sm:text-xl text-primary mb-4 font-medium">
                       {member.role}
                     </p>
-                    <p className="text-base sm:text-lg text-muted-foreground mb-6 leading-relaxed">
+                    <p className="text-base sm:text-lg text-muted-foreground mb-6 leading-relaxed whitespace-pre-line">
                       {member.bio}
                     </p>
                     <div className="mb-6">
