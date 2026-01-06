@@ -148,26 +148,10 @@ const PolitykaPrywatnosci = () => {
                   </ul>
                 </div>
 
-                {/* Pliki cookies */}
-                <div>
-                  <h2 className="text-2xl sm:text-3xl font-display font-bold text-forest-dark mb-6">
-                    7. PLIKI COOKIES
-                  </h2>
-                  <p className="text-base sm:text-lg text-foreground/90 leading-relaxed mb-4">
-                    Strona internetowa wykorzystuje pliki cookies w celu zapewnienia prawidłowego funkcjonowania 
-                    serwisu oraz w celach analitycznych. Szczegółowe informacje dotyczące plików cookies znajdują 
-                    się w{" "}
-                    <a href="/cookies" className="text-accent hover:underline">
-                      Preferencjach dotyczących plików cookie
-                    </a>
-                    .
-                  </p>
-                </div>
-
                 {/* Bezpieczeństwo danych */}
                 <div>
                   <h2 className="text-2xl sm:text-3xl font-display font-bold text-forest-dark mb-6">
-                    8. BEZPIECZEŃSTWO DANYCH
+                    7. BEZPIECZEŃSTWO DANYCH
                   </h2>
                   <p className="text-base sm:text-lg text-foreground/90 leading-relaxed">
                     Administrator stosuje odpowiednie środki techniczne i organizacyjne zapewniające ochronę 
@@ -179,7 +163,7 @@ const PolitykaPrywatnosci = () => {
                 {/* Zmiany w polityce */}
                 <div>
                   <h2 className="text-2xl sm:text-3xl font-display font-bold text-forest-dark mb-6">
-                    9. ZMIANY W POLITYCE PRYWATNOŚCI
+                    8. ZMIANY W POLITYCE PRYWATNOŚCI
                   </h2>
                   <p className="text-base sm:text-lg text-foreground/90 leading-relaxed">
                     Administrator zastrzega sobie prawo do wprowadzania zmian w niniejszej Polityce Prywatności. 
@@ -191,7 +175,7 @@ const PolitykaPrywatnosci = () => {
                 {/* Kontakt */}
                 <div>
                   <h2 className="text-2xl sm:text-3xl font-display font-bold text-forest-dark mb-6">
-                    10. KONTAKT
+                    9. KONTAKT
                   </h2>
                   <p className="text-base sm:text-lg text-foreground/90 leading-relaxed">
                     W przypadku pytań dotyczących przetwarzania danych osobowych, prosimy o kontakt pod adresem:{" "}
