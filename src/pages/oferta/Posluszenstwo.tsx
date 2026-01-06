@@ -77,7 +77,7 @@ const Posluszenstwo = () => {
                   Kursy prowadzone są w grupach – maksymalnie 4 zespoły uczestników (tworzymy grupę dla psów dorosłych oraz osobną dla szczeniąt do 5 miesiąca). Kurs składa się z 7 godzin zajęć.
                 </p>
                 <p className="text-base sm:text-lg text-muted-foreground mb-6 leading-relaxed">
-                  Zajęcia prowadzone są w małych grupach, na ogrodzonym placu, na Wawrze. W trakcie ich trwania, Wasz pies będzie zdobywał podstawowe umiejętności z posłuszeństwa, socjalizował się w towarzystwie innych psów oraz zwierząt mieszkających w sąsiedztwie.
+                  W trakcie trwania zajęć, Wasz pies będzie zdobywał umiejętności z posłuszeństwa, oraz nauczy się pracować w rozproszeniach.
                 </p>
                 <p className="text-base sm:text-lg text-muted-foreground mb-6 leading-relaxed font-semibold">
                   Jednak pamiętajcie! Na sukces Waszego psa składa się Wasza wspólna praca – tworzycie drużynę!
@@ -114,9 +114,7 @@ const Posluszenstwo = () => {
                     "nauczysz swojego psa podstaw posłuszeństwa",
                     "rozwijecie relację",
                     "jako opiekun zrozumiesz podstawy psiej komunikacji",
-                    "po każdych zajęciach otrzymacie podsumowanie oraz pracę domową",
-                    "otrzymacie dostęp do grupy na Facebooku",
-                    "zdobędziecie dyplom ukończenia zajęć"
+                    "po każdych zajęciach otrzymacie podsumowanie oraz pracę domową"
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-3">
                       <CheckCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
@@ -144,7 +142,7 @@ const Posluszenstwo = () => {
                   Kursy prowadzone są w grupach – maksymalnie 4 zespoły uczestników (tworzymy grupę dla psów dorosłych oraz osobną dla szczeniąt do 5 miesiąca). Kurs składa się z 6 godzin zajęć.
                 </p>
                 <p className="text-base sm:text-lg text-muted-foreground mb-6 leading-relaxed">
-                  Zajęcia prowadzone są w małych grupach, na ogrodzonym placu, na Wawrze. W trakcie ich trwania, Wasz pies będzie zdobywał kolejne umiejętności z posłuszeństwa, socjalizował się w towarzystwie innych psów oraz zwierząt mieszkających w sąsiedztwie.
+                  W trakcie trwania zajęć, Wasz pies będzie zdobywał umiejętności z posłuszeństwa, oraz nauczy się pracować w rozproszeniach.
                 </p>
                 <p className="text-base sm:text-lg text-muted-foreground mb-6 leading-relaxed font-semibold">
                   Jednak pamiętajcie! Na sukces Waszego psa składa się Wasza wspólna praca – tworzycie drużynę!
@@ -176,9 +174,7 @@ const Posluszenstwo = () => {
                     "nauczysz swojego psa dodatkowych umiejętności w zakresie posłuszeństwa",
                     "pogłębisz relację z psem",
                     "jako opiekun poznasz procesy pracy nad nowymi ćwiczeniami",
-                    "po każdych zajęciach otrzymacie podsumowanie oraz pracę domową",
-                    "otrzymacie dostęp do grupy na facebooku",
-                    "zdobędziecie dyplom ukończenia zajęć"
+                    "po każdych zajęciach otrzymacie podsumowanie oraz pracę domową"
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-3">
                       <CheckCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
