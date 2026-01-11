@@ -10,7 +10,7 @@ import martaPhoto from "@/assets/marta.jpg";
 
 const teamMembers = [
   {
-    name: "Ola",
+    name: "Ola Sabaj",
     role: "Trenerka i behawiorystka psów.",
     image: olaPhoto,
     bio: "W pracy z psami dużą wagę przykłada do komunikacji i uważnego obserwowania ich sygnałów. Trening traktuje jako narzędzie, które wspiera komfortowe życie psa i jego opiekuna.\n\nOla aktywnie trenuje obedience ze swoimi psami. W codziennej pracy łączy elementy tego sportu ze standardowym posłuszeństwem.\n\nPracuje w sposób holistyczny – skupia się zarówno na emocjach psa, jak i na praktycznych ćwiczeniach. Dzięki temu zespoły pies–człowiek lepiej funkcjonują na co dzień.",
